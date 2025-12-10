@@ -67,13 +67,10 @@
 
 <ul>
   <li>Construcción profesional de dashboards</li>
-  <li>Storytelling visual</li>
+  <li>Visualización Analítica</li>
   <li>Uso de filtros dinámicos</li>
   <li>Interpretación de tendencias globales y regionales</li>
   <li>Preparación de entregables ejecutivos</li>
 </ul>
 
-<p>
-  El dashboard automatiza por completo el proceso semanal utilizado por Melanie y Ashok, 
-  permitiendo consultas diarias sin intervención manual.
-</p>
+
