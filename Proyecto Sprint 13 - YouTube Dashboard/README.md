@@ -1,4 +1,4 @@
-<h1>📊 Sprint 13 – Dashboard de Tendencias de YouTube</h1>
+<h1>📊 Proyecto Sprint 13 – Dashboard de Tendencias de YouTube</h1>
 
 <p>
   Proyecto enfocado en la creación de un dashboard interactivo en Tableau para automatizar 
@@ -8,7 +8,7 @@
 
 <hr>
 
-<h2>📂 Contenido del Sprint 13</h2>
+<h2>📂 Contenido del Proyecto del Sprint 13</h2>
 
 <hr>
 
@@ -56,21 +56,6 @@
 </ul>
 
 <p><strong>📄 Archivo:</strong> <code>Dashboard_de_Analisis_de_Tendencias_de_YouTube.pdf</code></p>
-
-<hr>
-
-<h3>🗂️ 4. Paquete ZIP enviado a revisión</h3>
-
-<p>Incluye todos los materiales solicitados en el sprint:</p>
-
-<ul>
-  <li>CSV</li>
-  <li>Dashboard publicado</li>
-  <li>Presentación PDF</li>
-  <li>Archivo readme.txt</li>
-</ul>
-
-<p><strong>📦 Archivo:</strong> <code>Proyecto_Dashboard_TendenciasYouTube_OscarAranda.zip</code></p>
 
 <hr>
 
