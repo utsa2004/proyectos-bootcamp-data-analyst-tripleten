@@ -8,7 +8,7 @@
 
 <hr>
 
-<h2>📂 Contenido del Proyecto del Sprint 13</h2>
+<h2>📂 Contenido del Proyecto Sprint 13</h2>
 
 <hr>
 
