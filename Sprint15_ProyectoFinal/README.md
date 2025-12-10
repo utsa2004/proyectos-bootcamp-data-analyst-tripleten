@@ -29,5 +29,13 @@ Evaluación estadística del sistema de recomendación mediante una **prueba Z**
 ---
 
 ### 🗂️ 4. Proyecto Final – SQL
-Conjunto de consultas SQL orientadas a analizar el ecosistema editorial digital: estructur
+Conjunto de consultas SQL orientadas a analizar el ecosistema editorial digital: estructura de libros, calificaciones, reseñas, autores, editoriales y comportamiento de usuarios. El análisis permite identificar tendencias clave, métricas fundamentales y patrones relevantes para el diseño de un producto literario digital.
+
+📁 **Archivo:** `Proyecto_SQL_Final.ipynb`
+
+---
+
+## ✅ Resultado General
+Este conjunto de proyectos demuestra la integración completa de las habilidades adquiridas a lo largo del bootcamp:  
+**análisis exploratorio, estadística aplicada, pruebas A/B, SQL y pensamiento estructurado orientado al negocio.**
 
