@@ -3,6 +3,7 @@
 Proyecto enfocado en la creación de un dashboard interactivo en Tableau para automatizar el análisis semanal de tendencias de videos en YouTube y apoyar la toma de decisiones en campañas publicitarias.
 
 📂 Contenido del Sprint 13
+
 🔢 1. Datos utilizados
 
 Archivo base con el historial de tendencias empleado para generar todas las visualizaciones del dashboard.
