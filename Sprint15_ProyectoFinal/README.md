@@ -1,20 +1,56 @@
-Sprint 15 – Proyecto Final
+# 🏁 Sprint 15 – Proyecto Final  
+Este sprint integra **cuatro proyectos finales** que aplican técnicas avanzadas de análisis de datos, pruebas A/B, SQL y descomposición estructurada de problemas.
 
-Este sprint integra cuatro proyectos finales que aplican técnicas avanzadas de análisis de datos, pruebas A/B, SQL y descomposición estructurada de problemas.
+---
 
-📁 Contenido del Sprint 15
-1. Descomposición del Proyecto Final – CallMeMaybe
+## 📂 **Contenido del Sprint 15**
 
-Análisis estructurado del caso, definiendo objetivos de negocio, hipótesis, métricas clave y plan analítico.
+---
 
-2. Proyecto Final – CallMeMaybe (Python)
+### **1. Descomposición del Proyecto Final – CallMeMaybe**
+Análisis estructurado del caso con:
+- Definición de objetivos de negocio  
+- Hipótesis  
+- Métricas clave  
+- Plan analítico  
 
-Notebook principal con análisis exploratorio, métricas operativas, segmentación de operadores e identificación de ineficiencias.
+📁 *Archivo:* `Descomposicion_CallMeMaybe.docx` 
 
-3. Proyecto Final – Pruebas A/B
+---
 
-Evaluación estadística del sistema recomendado mediante prueba Z para diferencias de proporciones y análisis del embudo.
+### **2. Proyecto Final – CallMeMaybe (Python)**
+Notebook principal con:
+- Análisis exploratorio  
+- Métricas operativas  
+- Segmentación de operadores  
+- Identificación de ineficiencias  
 
-4. Proyecto Final – SQL
+📁 *Archivo:* `Proyecto_Final_CallMeMaybe.ipynb`
 
-Consultas SQL orientadas a validar comportamiento del usuario, experimentar consistencia y obtener métricas clave de negocio.
+---
+
+### **3. Proyecto Final – Pruebas A/B**
+Evaluación estadística del sistema de recomendación mediante:
+- Prueba Z para diferencias de proporciones  
+- Análisis del embudo de conversión  
+- Validación de consistencia del experimento  
+
+📁 *Archivo:* `Proyecto_AB_Test.ipynb`
+
+---
+
+### **4. Proyecto Final – SQL**
+Consultas SQL orientadas a:
+- Validar comportamiento del usuario  
+- Verificar consistencia de datos  
+- Obtener métricas clave de negocio  
+
+📁 *Archivo:* `Proyecto_SQL_Final.sql` 
+
+---
+
+## ✅ **Resultado**
+Este conjunto de proyectos refleja la integración completa de las habilidades del bootcamp, combinando análisis exploratorio, estadística, pruebas A/B, SQL y pensamiento estructurado.
+
+---
+
