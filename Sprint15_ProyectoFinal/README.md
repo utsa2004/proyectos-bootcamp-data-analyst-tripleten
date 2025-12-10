@@ -14,7 +14,7 @@ Análisis estructurado del caso con:
 - Métricas clave  
 - Plan analítico  
 
-📁 *Archivo:* `Descomposicion_CallMeMaybe.docx` 
+📁 *Archivo:* `Descomposicion_CallMeMaybe.ipynb` 
 
 ---
 
@@ -45,7 +45,7 @@ Consultas SQL orientadas a:
 - Verificar consistencia de datos  
 - Obtener métricas clave de negocio  
 
-📁 *Archivo:* `Proyecto_SQL_Final.sql` 
+📁 *Archivo:* `Proyecto_SQL_Final.ipynb` 
 
 ---
 
