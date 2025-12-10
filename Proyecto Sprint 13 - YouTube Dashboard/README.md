@@ -1,71 +1,94 @@
-📊 Sprint 13 – Dashboard de Tendencias de YouTube
+<h1>📊 Sprint 13 – Dashboard de Tendencias de YouTube</h1>
 
-Proyecto enfocado en la creación de un dashboard interactivo en Tableau para automatizar el análisis semanal de tendencias de videos en YouTube y apoyar la toma de decisiones en campañas publicitarias.
+<p>
+  Proyecto enfocado en la creación de un dashboard interactivo en Tableau para automatizar 
+  el análisis semanal de tendencias de videos en YouTube y apoyar la toma de decisiones en 
+  campañas publicitarias.
+</p>
 
-📂 Contenido del Sprint 13
+<hr>
 
-🔢 1. Datos utilizados
+<h2>📂 Contenido del Sprint 13</h2>
 
-Archivo base con el historial de tendencias empleado para generar todas las visualizaciones del dashboard.
+<hr>
 
-📄 Archivo: trending_by_time.csv
+<h3>🔢 1. Datos utilizados</h3>
 
-📊 2. Dashboard en Tableau Public
+<p>
+  Archivo base con el historial de tendencias empleado para generar todas las visualizaciones 
+  del dashboard.
+</p>
 
-Dashboard interactivo que incluye:
+<p><strong>📄 Archivo:</strong> <code>trending_by_time.csv</code></p>
 
-Historial de tendencias (valores absolutos)
+<hr>
 
-Historial de tendencias (%)
+<h3>📊 2. Dashboard en Tableau Public</h3>
 
-Tendencias por país
+<p>Dashboard interactivo que incluye:</p>
 
-Tabla Categoría vs País
+<ul>
+  <li>Historial de tendencias (valores absolutos)</li>
+  <li>Historial de tendencias (%)</li>
+  <li>Tendencias por país</li>
+  <li>Tabla Categoría vs País</li>
+  <li>Filtros de fecha/hora y región aplicados globalmente</li>
+</ul>
 
-Filtros de fecha/hora y región aplicados globalmente
+<p>
+  <strong>🔗 Dashboard en Tableau Public:</strong><br>
+  <a href="https://public.tableau.com/app/profile/oscar.aranda7717/viz/YouTube_Trending_Analysis/YouTubeTrends?publish=yes" target="_blank">
+    https://public.tableau.com/app/profile/oscar.aranda7717/viz/YouTube_Trending_Analysis/YouTubeTrends?publish=yes
+  </a>
+</p>
 
-🔗 Dashboard en Tableau Public: https://public.tableau.com/app/profile/oscar.aranda7717/viz/YouTube_Trending_Analysis/YouTubeTrends?publish=yes
+<hr>
 
-📝 3. Presentación ejecutiva
+<h3>📝 3. Presentación ejecutiva</h3>
 
-Documento con las conclusiones principales del análisis:
+<p>Documento con las conclusiones principales del análisis:</p>
 
-Categorías más frecuentes en tendencia
+<ul>
+  <li>Categorías más frecuentes en tendencia</li>
+  <li>Comparación entre regiones</li>
+  <li>Popularidad específica en Estados Unidos</li>
+  <li>Diferencias entre tendencias de US y otras regiones</li>
+</ul>
 
-Comparación entre regiones
+<p><strong>📄 Archivo:</strong> <code>Dashboard_de_Analisis_de_Tendencias_de_YouTube.pdf</code></p>
 
-Popularidad específica en Estados Unidos
+<hr>
 
-Diferencias entre tendencias de US y otras regiones
+<h3>🗂️ 4. Paquete ZIP enviado a revisión</h3>
 
-📄 Archivo: Dashboard_de_Analisis_de_Tendencias_de_YouTube.pdf
+<p>Incluye todos los materiales solicitados en el sprint:</p>
 
-🗂️ 4. Paquete ZIP enviado a revisión
+<ul>
+  <li>CSV</li>
+  <li>Dashboard publicado</li>
+  <li>Presentación PDF</li>
+  <li>Archivo readme.txt</li>
+</ul>
 
-Incluye todos los materiales solicitados en el sprint:
+<p><strong>📦 Archivo:</strong> <code>Proyecto_Dashboard_TendenciasYouTube_OscarAranda.zip</code></p>
 
-CSV
+<hr>
 
-Dashboard publicado
+<h2>✅ Resultado General</h2>
 
-Presentación PDF
+<p>
+  Este proyecto demuestra habilidades en:
+</p>
 
-Archivo readme.txt
+<ul>
+  <li>Construcción profesional de dashboards</li>
+  <li>Storytelling visual</li>
+  <li>Uso de filtros dinámicos</li>
+  <li>Interpretación de tendencias globales y regionales</li>
+  <li>Preparación de entregables ejecutivos</li>
+</ul>
 
-📦 Archivo: Proyecto_Dashboard_TendenciasYouTube_OscarAranda.zip
-
-✅ Resultado General
-
-Este proyecto demuestra habilidades en:
-
-Construcción profesional de dashboards
-
-Storytelling visual
-
-Uso de filtros dinámicos
-
-Interpretación de tendencias globales y regionales
-
-Preparación de entregables ejecutivos
-
-El dashboard automatiza por completo el proceso semanal utilizado por Melanie y Ashok, permitiendo consultas diarias sin intervención manual.
+<p>
+  El dashboard automatiza por completo el proceso semanal utilizado por Melanie y Ashok, 
+  permitiendo consultas diarias sin intervención manual.
+</p>
