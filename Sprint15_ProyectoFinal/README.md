@@ -8,11 +8,12 @@ Este sprint integra **cuatro proyectos finales** que aplican técnicas avanzadas
 ---
 
 ### **1. Descomposición del Proyecto Final – CallMeMaybe**
-Análisis estructurado del caso con:
-- Definición de objetivos de negocio  
-- Hipótesis  
-- Métricas clave  
-- Plan analítico  
+Análisis estructurado del caso para definir el enfoque del proyecto, los objetivos de negocio y las métricas clave utilizadas para identificar operadores ineficaces.
+
+- Definición del problema y métricas del negocio
+- Formulación de Hipótesis  
+- Plan analítico del proyecto  
+- Justificación del flujo de trabajo
 
 📁 *Archivo:* `Descomposicion_CallMeMaybe.ipynb` 
 
@@ -40,13 +41,17 @@ Evaluación estadística del sistema de recomendación mediante:
 ---
 
 ### **4. Proyecto Final – SQL**
-Consultas SQL orientadas a:
-- Validar comportamiento del usuario  
-- Verificar consistencia de datos  
-- Obtener métricas clave de negocio  
+Consultas SQL aplicadas para analizar el ecosistema editorial digital y comprender el comportamiento de libros, autores, editoriales y usuarios.  
+El análisis permitió identificar tendencias clave del mercado literario digital durante el periodo 2000–2020.
 
-📁 *Archivo:* `Proyecto_SQL_Final.ipynb` 
+Incluye:
+- Análisis estructural de libros, editoriales y fechas de publicación  
+- Comparación de calificaciones y reseñas mediante JOINs estratégicos  
+- Identificación de autores y editoriales con mejor desempeño  
+- Evaluación del comportamiento y participación de los usuarios  
+- Obtención de métricas clave para el diseño de un nuevo producto literario digital  
 
+📁 Archivo: `Proyecto_SQL_Final.ipynb`
 ---
 
 ## ✅ **Resultado**
