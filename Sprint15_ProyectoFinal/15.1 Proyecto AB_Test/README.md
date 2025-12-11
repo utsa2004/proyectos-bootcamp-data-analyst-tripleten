@@ -88,7 +88,7 @@ Determinar si el nuevo sistema de recomendaciones genera una mejora ≥10% en la
 ---
 
 ## 🔗 Enlace al repositorio
-*Agrega aquí la URL de GitHub una vez publicado.*
+https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Sprint15_ProyectoFinal/15.1%20Proyecto%20AB_Test
 
 ---
  
