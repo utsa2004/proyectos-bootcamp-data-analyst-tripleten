@@ -75,6 +75,13 @@
 
 <hr>
 
+<h3>⚠️ Nota sobre Sprint 9</h3>
+<p>
+  El Sprint 9 no incluye un proyecto práctico dentro del programa.
+</p>
+
+<hr>
+
 <h3>10. Showz – Análisis del comportamiento de usuarios</h3>
 <p>
   Analizo cómo los usuarios interactúan con una plataforma de entretenimiento a lo largo de su ciclo de vida.
