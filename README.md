@@ -13,7 +13,7 @@
 
 <hr>
 
-<h3>1️⃣ Store – Evaluación de calidad de datos</h3>
+<h3>1. Store – Evaluación de calidad de datos</h3>
 <p>
   Analizo la calidad del dataset de usuarios, detectando valores ausentes, duplicados y errores. 
   Propongo mejoras para garantizar datos confiables en futuros análisis.
@@ -21,7 +21,7 @@
 
 <hr>
 
-<h3>2️⃣ Store (parte 2) – Análisis avanzado de datos</h3>
+<h3>2. Store (parte 2) – Análisis avanzado de datos</h3>
 <p>
   Extiendo el análisis anterior aplicando técnicas exploratorias y estadísticas para obtener hallazgos 
   clave que apoyan decisiones del negocio.
@@ -29,7 +29,7 @@
 
 <hr>
 
-<h3>3️⃣ Springfield vs Shelbyville – Preferencias musicales</h3>
+<h3>3. Springfield vs Shelbyville – Preferencias musicales</h3>
 <p>
   Comparo el comportamiento de los usuarios de ambas ciudades para comprobar una hipótesis sobre diferencias 
   en sus gustos musicales mediante visualizaciones y estadística.
@@ -37,7 +37,7 @@
 
 <hr>
 
-<h3>4️⃣ Instacart – Limpieza y análisis de pedidos</h3>
+<h3>4. Instacart – Limpieza y análisis de pedidos</h3>
 <p>
   Trabajo con datos simulados de pedidos llenos de duplicados y valores ausentes. Realizo limpieza estructurada 
   y análisis para comprender patrones de compra.
@@ -45,21 +45,21 @@
 
 <hr>
 
-<h3>5️⃣ Megaline – Análisis de tarifas móviles</h3>
+<h3>5. Megaline – Análisis de tarifas móviles</h3>
 <p>
   Determino cuál de las dos tarifas prepago genera mayores ingresos mediante análisis estadístico y pruebas de hipótesis.
 </p>
 
 <hr>
 
-<h3>6️⃣ Ice – Predicción de éxito de videojuegos</h3>
+<h3>6. Ice – Predicción de éxito de videojuegos</h3>
 <p>
   Analizo ventas, reseñas y géneros para identificar factores asociados al éxito comercial de un videojuego.
 </p>
 
 <hr>
 
-<h3>7️⃣ Streamlit Carros – Aplicación Web interactiva</h3>
+<h3>7. Streamlit Carros – Aplicación Web interactiva</h3>
 <p>
   Construyo una aplicación web con Streamlit que permite explorar información de vehículos usados mediante histogramas, 
   dispersión y filtros. Incluye despliegue final en Render.
@@ -67,7 +67,7 @@
 
 <hr>
 
-<h3>8️⃣ Zuber – Análisis de datos de viajes</h3>
+<h3>8. Zuber – Análisis de datos de viajes</h3>
 <p>
   Como analista para Zuber, estudio patrones de viajes, demanda por zonas, tiempos y dinámica de uso.
   El objetivo es entender qué factores influyen en los flujos de viajes urbanos.
@@ -75,31 +75,31 @@
 
 <hr>
 
-<h3>🔟 Showz – Análisis de hábitos de consumo</h3>
+<h3>10. Showz – Análisis del comportamiento de usuarios</h3>
 <p>
-  Exploro datos de usuarios en una plataforma de entretenimiento para identificar patrones de visualización 
-  y diferencias entre segmentos.
+  Analizo cómo los usuarios interactúan con una plataforma de entrenimiento a lo largo de su ciclo de vida.
+  Evaluó la efectividad de campañas de marketing, la conversión entre etapas y el valor generado por los usuarios.
 </p>
 
 <hr>
 
-<h3>1️⃣1️⃣ BigWeb – Análisis de tráfico web</h3>
+<h3>11. BigWeb – Análisis de experimento A/B  </h3>
 <p>
-  Estudio el comportamiento de los visitantes de un sitio web, evaluando fuentes de tráfico, páginas de entrada 
-  y conversión.
+  Analizo un experimento A/B realizado por una plataforma de comercio electrónico para evaluar mejoras en su proceso de compra.
+  Determino, mediante evidencia estadística, si los cambios propuestos incrementan la conversión y los ingresos.
 </p>
 
 <hr>
 
-<h3>1️⃣2️⃣ Farming – Gestión agrícola con datos</h3>
+<h3>12. Farming – Embudo de Conversión y test A/A/B</h3>
 <p>
-  Analizo datos de producción agrícola para identificar tendencias, rendimientos y factores que afectan 
-  la eficiencia del cultivo.
+  Analizo el comportamiento de los usuarios en una app de e-commerce para identificar pérdidas en el embudo de conversión.
+Evalúo un experimento A/A/B para determinar si un cambio en el diseño de la interfaz afecta significativamente la interacción y las métricas de compra.
 </p>
 
 <hr>
 
-<h3>1️⃣3️⃣ YouTube Dashboard – Tendencias globales</h3>
+<h3>13. YouTube Dashboard – Tendencias globales</h3>
 <p>
   Construyo un dashboard interactivo en Tableau que automatiza el análisis semanal de tendencias en YouTube 
   por país, categoría y métricas clave.
@@ -107,10 +107,11 @@
 
 <hr>
 
-<h3>1️⃣4️⃣ Fitness – Seguimiento de progreso de usuarios</h3>
+<h3>14. Fitness – Predicción de abandono y análisis de retención</h3>
 <p>
-  Investigo la relación entre actividad física, métricas corporales y el éxito de programas de entrenamiento. 
-  Incluye análisis exploratorio, visualización y conclusiones basadas en datos.
+  Analizo datos de clientes de una cadena de gimnasios para identificar factores asociados al abandono y construir modelos predictivos
+  que anticipen qué usuarios podrían cancelar su membresía
+  Incluye clasificación supervisada y clustering para segmentar usuarios y proponer acciones estratégicas de retención basadas en datos.
 </p>
 
 <hr>
