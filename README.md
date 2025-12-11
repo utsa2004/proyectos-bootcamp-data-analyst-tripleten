@@ -23,7 +23,7 @@
 
 <h3>2️⃣ Store (parte 2) – Análisis avanzado de datos</h3>
 <p>
-  Extiendo el análisis anterior aplicando técnicas exploratorias y estadísticas para obtener insights 
+  Extiendo el análisis anterior aplicando técnicas exploratorias y estadísticas para obtener hallazgos 
   clave que apoyan decisiones del negocio.
 </p>
 
