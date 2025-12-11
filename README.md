@@ -116,11 +116,11 @@ Evalúo un experimento A/A/B para determinar si un cambio en el diseño de la in
 
 <hr>
 
-<h2>🏁 Sprint 15 – Proyecto Final (4 entregables)</h2>
+<h2> Sprint 15 – Proyecto Final (4 entregables)</h2>
 
 <hr>
 
-<h3>15.1 🧪 Pruebas A/B – Evaluación del sistema de recomendación</h3>
+<h3>15.1 Pruebas A/B – Evaluación del sistema de recomendación</h3>
 <p>
   Aplico una prueba Z para comparar dos variantes del sistema. Incluye análisis del embudo de conversión, 
   verificaciones de consistencia y conclusiones sobre la variante ganadora.
@@ -128,7 +128,7 @@ Evalúo un experimento A/A/B para determinar si un cambio en el diseño de la in
 
 <hr>
 
-<h3>15.2 🗄️ SQL – Análisis editorial</h3>
+<h3>15.2 SQL – Análisis editorial</h3>
 <p>
   Realizo consultas SQL para examinar estructura de libros, autores, reseñas y actividad de usuarios.
   Identifico métricas clave y patrones para entender el ecosistema editorial digital.
@@ -136,7 +136,7 @@ Evalúo un experimento A/A/B para determinar si un cambio en el diseño de la in
 
 <hr>
 
-<h3>15.3 🧩 Descomposición del Proyecto – CallMeMaybe</h3>
+<h3>15.3 Descomposición del Proyecto – CallMeMaybe</h3>
 <p>
   Descompongo el problema de negocio, defino hipótesis, métricas, plan analítico y criterios para 
   evaluar operadores telefónicos ineficientes.
@@ -144,7 +144,7 @@ Evalúo un experimento A/A/B para determinar si un cambio en el diseño de la in
 
 <hr>
 
-<h3>15.4 📞 Proyecto Final – CallMeMaybe (Python)</h3>
+<h3>15.4 Proyecto Final – CallMeMaybe (Python)</h3>
 <p>
   Integro todo el análisis: EDA, métricas operativas, segmentación de operadores, estadísticas y visualizaciones. 
   El objetivo es identificar ineficiencias y proponer mejoras respaldadas con datos.
