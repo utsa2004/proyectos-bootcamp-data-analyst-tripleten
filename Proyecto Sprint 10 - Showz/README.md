@@ -1,4 +1,4 @@
-# 🎭 Proyecto Sprint 10 – Showz: Análisis de Comportamiento de Usuarios y Rentabilidad de Marketing  
+# Proyecto Sprint 10 – Showz: Análisis de Comportamiento de Usuarios y Rentabilidad de Marketing  
 **Bootcamp de Data Analytics – TripleTen**
 
 ---
@@ -165,15 +165,8 @@ Aplicar esta redistribución optimizada permitirá:
 
 ---
 
-## 📂 Archivos del proyecto
-- `Proyecto Sprint 10 - Showz.ipynb`  
-- `datasets/`  
-- `README.md` (este archivo)
-
----
-
 ## 🔗 Enlace al repositorio
-*(Agrega la URL cuando esté listo.)*
+https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2010%20-%20Showz
 
 ---
 
