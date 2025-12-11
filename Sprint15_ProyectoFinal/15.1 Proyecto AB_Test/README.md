@@ -79,14 +79,6 @@ Determinar si el nuevo sistema de recomendaciones genera una mejora ≥10% en la
 
 ---
 
-## 📂 Archivos del proyecto
-- `notebook_ab_test.ipynb` – Notebook con el análisis completo  
-- `datasets/` – Datos utilizados  
-- `plots/` – Visualizaciones generadas  
-- `README.md` – Documentación del proyecto
-
----
-
 ## 🔗 Enlace al repositorio
 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Sprint15_ProyectoFinal/15.1%20Proyecto%20AB_Test
 
