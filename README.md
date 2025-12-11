@@ -61,8 +61,8 @@
 
 <h3>7. Streamlit Carros – Aplicación Web interactiva</h3>
 <p>
-  Construyo una aplicación web con Streamlit que permite explorar información de vehículos usados mediante histogramas, 
-  dispersión y filtros. Incluye despliegue final en Render.
+  Construyo una aplicación web interactiva con Streamlit para explorar datos de vehículos usados mediante histogramas, 
+  dispersión y filtros dinámicos.
 </p>
 
 <hr>
@@ -77,7 +77,7 @@
 
 <h3>10. Showz – Análisis del comportamiento de usuarios</h3>
 <p>
-  Analizo cómo los usuarios interactúan con una plataforma de entrenimiento a lo largo de su ciclo de vida.
+  Analizo cómo los usuarios interactúan con una plataforma de entretenimiento a lo largo de su ciclo de vida.
   Evaluó la efectividad de campañas de marketing, la conversión entre etapas y el valor generado por los usuarios.
 </p>
 
@@ -110,7 +110,7 @@ Evalúo un experimento A/A/B para determinar si un cambio en el diseño de la in
 <h3>14. Fitness – Predicción de abandono y análisis de retención</h3>
 <p>
   Analizo datos de clientes de una cadena de gimnasios para identificar factores asociados al abandono y construir modelos predictivos
-  que anticipen qué usuarios podrían cancelar su membresía
+  que anticipen qué usuarios podrían cancelar su membresía.
   Incluye clasificación supervisada y clustering para segmentar usuarios y proponer acciones estratégicas de retención basadas en datos.
 </p>
 
@@ -146,8 +146,32 @@ Evalúo un experimento A/A/B para determinar si un cambio en el diseño de la in
 
 <h3>15.4 Proyecto Final – CallMeMaybe (Python)</h3>
 <p>
-  Integro todo el análisis: EDA, métricas operativas, segmentación de operadores, estadísticas y visualizaciones. 
-  El objetivo es identificar ineficiencias y proponer mejoras respaldadas con datos.
+  Integro todo el análisis: EDA, métricas operativas, segmentación de operadores, pruebas estadísticas y visualizaciones. 
+  Identifico ineficiencias y propongo mejoras basadas en datos.
 </p>
 
 <hr>
+
+<h2>🧰 Herramientas utilizadas</h2>
+
+<p>Python</p>
+<p>Jupyter Notebook</p>
+<p>Pandas</p>
+<p>NumPy</p>
+<p>Matplotlib / Seaborn</p>
+<p>SciPy (pruebas estadísticas)</p>
+<p>SQL</p>
+<p>Streamlit</p>
+<p>Plotly Express</p>
+<p>Tableau Public</p>
+
+<hr>
+
+<h2>📌 Nota</h2>
+<p>
+  Todos los proyectos fueron desarrollados con fines educativos como parte del programa 
+  de formación de TripleTen.
+</p>
+
+<hr>
+
