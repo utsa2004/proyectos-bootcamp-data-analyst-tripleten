@@ -113,13 +113,6 @@ Incorporar predicciones climáticas en la app para mejorar la experiencia del us
 
 ---
 
-## 📂 Archivos del proyecto
-- `Proyecto Sprint 08 - Zuber.ipynb`  
-- `datasets/`  
-- `README.md` (este archivo)
-
----
-
 ## 🔗 Enlace al repositorio
 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2008%20-%20Zuber
 
