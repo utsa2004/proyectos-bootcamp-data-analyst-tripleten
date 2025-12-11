@@ -42,8 +42,6 @@ Proyecto-Carros/
 - Plotly-express  
 - Streamlit  
 
-## 👤 Autor
 
-**Oscar Aranda**
-📧 utsa2004@gmail.com
+
 
