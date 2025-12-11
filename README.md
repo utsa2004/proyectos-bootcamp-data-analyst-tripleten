@@ -171,6 +171,7 @@ Evalúo un experimento A/A/B para determinar si un cambio en el diseño de la in
 <p>Streamlit</p>
 <p>Plotly Express</p>
 <p>Tableau Public</p>
+<p>Machine Learning y modelado predictivo: StandardScaler, RandomForestClassifier, RandomForestClassifier y KMeans, entre otras. </p>
 
 <hr>
 
