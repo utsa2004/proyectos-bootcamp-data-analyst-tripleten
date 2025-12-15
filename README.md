@@ -2,192 +2,177 @@
 
 <p>
   Este repositorio reúne todos los proyectos desarrollados durante el bootcamp de análisis de datos de TripleTen.
-  Cada proyecto representa un caso aplicado del mundo real donde se utilizan habilidades clave como limpieza de datos, 
-  análisis exploratorio, visualización, estadística, SQL, pruebas A/B, desarrollo web con Streamlit y pensamiento 
-  estructurado para la solución de problemas.
+  Cada proyecto representa casos aplicados del mundo real donde se emplean habilidades clave como limpieza de datos, 
+  análisis exploratorio, visualización, estadística, SQL, pruebas A/B, desarrollo web con Streamlit 
+  y pensamiento analítico para la solución de problemas.
 </p>
 
 <hr>
 
 <h2>🔍 Lista de proyectos por Sprint</h2>
 
-<hr>
+---
 
 <h3>1. Store – Evaluación de calidad de datos</h3>
 <p>
-  Analizo la calidad del dataset de usuarios, detectando valores ausentes, duplicados y errores. 
-  Propongo mejoras para garantizar datos confiables en futuros análisis.
+  Análisis de la calidad del dataset de usuarios: detección de valores ausentes, duplicados y errores. 
+  Se proponen mejoras para garantizar confiabilidad en futuros análisis.
 </p>
 
-<hr>
+---
 
 <h3>2. Store (parte 2) – Análisis avanzado de datos</h3>
 <p>
-  Extiendo el análisis anterior aplicando técnicas exploratorias y estadísticas para obtener hallazgos 
-  clave que apoyan decisiones del negocio.
+  Se amplía el análisis aplicando técnicas exploratorias y estadísticas para obtener hallazgos 
+  clave que apoyen decisiones del negocio.
 </p>
 
-<hr>
+---
 
 <h3>3. Springfield vs Shelbyville – Preferencias musicales</h3>
 <p>
-  Comparo el comportamiento de los usuarios de ambas ciudades para comprobar una hipótesis sobre diferencias 
-  en sus gustos musicales mediante visualizaciones y estadística.
+  Comparación del comportamiento musical entre ciudades utilizando visualizaciones y pruebas estadísticas.
 </p>
 
-<hr>
+---
 
 <h3>4. Instacart – Limpieza y análisis de pedidos</h3>
 <p>
-  Trabajo con datos simulados de pedidos llenos de duplicados y valores ausentes. Realizo limpieza estructurada 
-  y análisis para comprender patrones de compra.
+  Limpieza estructurada de datos con duplicados y ausencias. 
+  Análisis sobre hábitos de compra y patrones relevantes.
 </p>
 
-<hr>
+---
 
 <h3>5. Megaline – Análisis de tarifas móviles</h3>
 <p>
-  Determino cuál de las dos tarifas prepago genera mayores ingresos mediante análisis estadístico y pruebas de hipótesis.
+  Evaluación de ingresos entre dos tarifas prepago mediante estadística descriptiva y pruebas de hipótesis.
 </p>
 
-<hr>
+---
 
 <h3>6. Ice – Predicción de éxito de videojuegos</h3>
 <p>
-  Analizo ventas, reseñas y géneros para identificar factores asociados al éxito comercial de un videojuego.
+  Identificación de factores que explican el éxito comercial de un videojuego mediante análisis exploratorio.
 </p>
 
-<hr>
+---
 
 <h3>7. Streamlit Carros – Aplicación Web interactiva</h3>
 <p>
-  Construyo una aplicación web interactiva con Streamlit para explorar datos de vehículos usados mediante histogramas, 
-  dispersión y filtros dinámicos.
+  Desarrollo de una app interactiva en Streamlit para explorar datos de vehículos usados con visualizaciones dinámicas.
 </p>
 
-<hr>
+---
 
 <h3>8. Zuber – Análisis de datos de viajes</h3>
 <p>
-  Como analista para Zuber, estudio patrones de viajes, demanda por zonas, tiempos y dinámica de uso.
-  El objetivo es entender qué factores influyen en los flujos de viajes urbanos.
+  Análisis de patrones de movilidad urbana en Chicago, incluyendo demanda por zonas, condiciones climáticas y duración de trayectos.
 </p>
 
-<hr>
+---
 
 <h3>⚠️ Nota sobre Sprint 9</h3>
 <p>
   El Sprint 9 no incluye un proyecto práctico dentro del programa.
 </p>
 
-<hr>
+---
 
 <h3>10. Showz – Análisis del comportamiento de usuarios</h3>
 <p>
-  Analizo cómo los usuarios interactúan con una plataforma de entretenimiento a lo largo de su ciclo de vida.
-  Evaluó la efectividad de campañas de marketing, la conversión entre etapas y el valor generado por los usuarios.
+  Evaluación del ciclo de vida del usuario, efectividad de campañas, conversión y rentabilidad por canal.
 </p>
 
-<hr>
+---
 
-<h3>11. BigWeb – Análisis de experimento A/B  </h3>
+<h3>11. BigWeb – Análisis de experimento A/B</h3>
 <p>
-  Analizo un experimento A/B realizado por una plataforma de comercio electrónico para evaluar mejoras en su proceso de compra.
-  Determino, mediante evidencia estadística, si los cambios propuestos incrementan la conversión y los ingresos.
+  Validación de un experimento A/B para determinar si una variante mejora la conversión de un sitio de comercio electrónico.
 </p>
 
-<hr>
+---
 
 <h3>12. Farming – Embudo de Conversión y test A/A/B</h3>
 <p>
-  Analizo el comportamiento de los usuarios en una app de e-commerce para identificar pérdidas en el embudo de conversión.
-Evalúo un experimento A/A/B para determinar si un cambio en el diseño de la interfaz afecta significativamente la interacción y las métricas de compra.
+  Análisis del embudo de usuarios, fricciones clave y validación de un experimento A/A/B para evaluar impacto visual en la interfaz.
 </p>
 
-<hr>
+---
 
 <h3>13. YouTube Dashboard – Tendencias globales</h3>
 <p>
-  Construyo un dashboard interactivo en Tableau que automatiza el análisis semanal de tendencias en YouTube 
-  por país, categoría y métricas clave.
+  Dashboard interactivo en Tableau para analizar tendencias semanales por categoría, país y métricas clave.
 </p>
 
-<hr>
+---
 
 <h3>14. Fitness – Predicción de abandono y análisis de retención</h3>
 <p>
-  Analizo datos de clientes de una cadena de gimnasios para identificar factores asociados al abandono y construir modelos predictivos
-  que anticipen qué usuarios podrían cancelar su membresía.
-  Incluye clasificación supervisada y clustering para segmentar usuarios y proponer acciones estratégicas de retención basadas en datos.
+  Análisis de retención, predicción de abandono con modelos supervisados y segmentación mediante clustering.
 </p>
 
-<hr>
+---
 
-<h2> Sprint 15 – Proyecto Final (4 entregables)</h2>
+<h2>📦 Sprint 15 – Proyecto Final (4 entregables)</h2>
 
-<hr>
+---
 
-<h3>15.1 Pruebas A/B – Evaluación del sistema de recomendación</h3>
+<h3>15.1 Pruebas A/B – Sistema de recomendación</h3>
 <p>
-  Aplico una prueba Z para comparar dos variantes del sistema. Incluye análisis del embudo de conversión, 
-  verificaciones de consistencia y conclusiones sobre la variante ganadora.
+  Prueba Z, análisis del embudo, métricas de conversión y conclusiones sobre la variante ganadora.
 </p>
 
-<hr>
+---
 
 <h3>15.2 SQL – Análisis editorial</h3>
 <p>
-  Realizo consultas SQL para examinar estructura de libros, autores, reseñas y actividad de usuarios.
-  Identifico métricas clave y patrones para entender el ecosistema editorial digital.
+  Consultas SQL para examinar estructura de libros, autores, reseñas y métricas de actividad.
 </p>
 
-<hr>
+---
 
 <h3>15.3 Descomposición del Proyecto – CallMeMaybe</h3>
 <p>
-  Descompongo el problema de negocio, defino hipótesis, métricas, plan analítico y criterios para 
-  evaluar operadores telefónicos ineficientes.
+  Definición del problema, hipótesis, métricas, criterios y plan analítico para evaluar desempeño de operadores telefónicos.
 </p>
 
-<hr>
+---
 
 <h3>15.4 Proyecto Final – CallMeMaybe (Python)</h3>
 <p>
-  Integro todo el análisis: EDA, métricas operativas, segmentación de operadores, pruebas estadísticas y visualizaciones. 
-  Identifico ineficiencias y propongo mejoras basadas en datos.
+  Análisis integral con EDA, métricas operativas, segmentación, estadística y visualizaciones. 
+  Identificación de ineficiencias y recomendaciones estratégicas.
 </p>
 
 <hr>
 
 <h2>🧰 Herramientas utilizadas</h2>
 
-<p>Python</p>
-<p>Jupyter Notebook</p>
-<p>Pandas</p>
-<p>NumPy</p>
-<p>Matplotlib / Seaborn</p>
-<p>SciPy (pruebas estadísticas)</p>
-<p>SQL</p>
-<p>Streamlit</p>
-<p>Plotly Express</p>
-<p>Tableau Public</p>
-<p><strong>Machine Learning y modelado predictivo:</strong> StandardScaler, train_test_split, LogisticRegression,RandomForestClassifier, RandomForestClassifier y KMeans,
-   métricas de evaluación (accuracy, precision, recall, silhouette), y clustering jerárquico (linkage, dendrogram).</p>
+- Python  
+- Jupyter Notebook  
+- Pandas  
+- NumPy  
+- Matplotlib / Seaborn  
+- SciPy (pruebas estadísticas)  
+- SQL  
+- Streamlit  
+- Plotly Express  
+- Tableau Public  
+- Machine Learning: StandardScaler, train_test_split, LogisticRegression, RandomForestClassifier, KMeans  
+- Métricas de ML: accuracy, precision, recall, silhouette  
+- Clustering jerárquico (linkage, dendrogram)
 
 <hr>
 
-<h2>📌 Nota</h2>
+<h2>📘 Sobre mí</h2>
+
+<p>Puedes conocer más sobre mi experiencia, enfoque y trayectoria profesional aquí:</p>
+
+👉 **<a href="Sobre_mi.md"><strong>Leer Sobre mí</strong></a>**
+
+<hr>
+
 <p>
-  Todos los proyectos fueron desarrollados con fines educativos como parte del programa 
-  de formación de TripleTen.
+  <strong>Nota:</strong> Todos los proyectos de este repositorio fueron desarrollados con fines educativos como parte del programa de formación de TripleTen.
 </p>
-
----
-
-## 📘 Sobre mí
-
-Puedes conocer más sobre mi experiencia, enfoque y trayectoria profesional aquí:
-
-👉 **[Leer Sobre mí](Sobre_mi.md)**
-
----
