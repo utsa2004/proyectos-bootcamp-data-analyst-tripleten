@@ -182,11 +182,12 @@ Evalúo un experimento A/A/B para determinar si un cambio en el diseño de la in
   de formación de TripleTen.
 </p>
 
-<hr>
+---
 
-<p>
-<h2>📘 Sobre mí<h2>
+## 📘 Sobre mí
 
 Puedes conocer más sobre mi experiencia, enfoque y trayectoria profesional aquí:
-<h2>👉 Leer Sobre mí<h2>
-</p>
+
+👉 **[Leer Sobre mí](Sobre_mi.md)**
+
+---
