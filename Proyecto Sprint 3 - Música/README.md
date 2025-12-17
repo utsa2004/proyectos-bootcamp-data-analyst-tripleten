@@ -107,6 +107,6 @@ Springfield y Shelbyville presentan patrones de consumo distintos, lo que indica
 
 ---
 
-## 🧠 Nota para reclutadores
+## 🧠 Nota Final
 Este proyecto demuestra la capacidad de realizar un **análisis exploratorio completo**, desde la limpieza de datos hasta la interpretación de resultados y conclusiones basadas en evidencia, utilizando herramientas estándar del análisis de datos.
 
