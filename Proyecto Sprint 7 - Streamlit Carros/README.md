@@ -1,47 +1,48 @@
-# 🚗 Proyecto-Carros : Aplicación Web para Anuncios de Venta de Carros Usados
+# 🚗 Proyecto Sprint 7 – Aplicación Web con Streamlit  
+## Visualización Interactiva de Anuncios de Venta de Vehículos
 
-# Panel de Análisis de Anuncios de Vehículos Usados
+**Bootcamp de Data Analytics – TripleTen**
 
-Este proyecto es una aplicación interactiva desarrollada con **Streamlit** que permite visualizar y analizar datos de anuncios de vehículos usados. Fue creado como parte del Sprint 7 del programa de formación en análisis de datos de TripleTen.
+---
 
-## 📌 Objetivos
+## 📌 Descripción del proyecto
+El objetivo de este proyecto es practicar tareas habituales de **ingeniería de software aplicada al análisis de datos**, incluyendo la creación de entornos virtuales, la estructuración de un proyecto en GitHub y el desarrollo de una **aplicación web interactiva**.
 
-- Explorar la distribución de precios en anuncios de vehículos usados.
-- Visualizar la relación entre el año del modelo y el precio del automóvil.
-- Analizar diferencias de precios según el tipo de vehículo.
+Se desarrolló una aplicación web utilizando **Streamlit** para visualizar datos de anuncios de venta de vehículos mediante gráficos interactivos, que permiten explorar el conjunto de datos de forma sencilla desde un navegador.
 
-## 📊 Funcionalidades del panel
+---
 
-- **Histograma:** Distribución de precios en anuncios de vehículos usados.
-- **Gráfico de dispersión:** Comparación entre año del modelo con el precio del auto
-- **Diagrama de caja:** Distribución de precios por tipo de vehículo.
+## 🎯 Objetivo del proyecto
+Desarrollar y desplegar una aplicación web básica que permita realizar visualizaciones interactivas a partir de un conjunto de datos, integrando buenas prácticas de desarrollo, control de versiones y despliegue en la nube.
 
-## 🚀 Cómo ejecutar el proyecto
+---
 
-Puedes acceder a la app desplegada en Render aquí:  
-🔗 [https://proyecto-oferta-carros-usados.onrender.com](https://proyecto-oferta-carros-usados.onrender.com)
+## 📂 Conjunto de datos utilizado
+- `vehicles_us.csv` – anuncios de venta de vehículos en Estados Unidos
 
+El conjunto de datos se utiliza únicamente con fines de **visualización y exploración**, no para análisis estadístico avanzado.
 
-## 📁 Estructura del repositorio
+---
 
-```
-Proyecto-Carros/
-│
-├── app.py               # Código principal de la app Streamlit
-├── notebooks/           # Carpeta que contiene notebooks con análisis exploratorios
-│   └── EDA.ipynb        # Notebook con el análisis exploratorio
-├── requirements.txt     # Lista de librerías necesarias para el proyecto
-├── vehicles_us.csv      # Conjunto de datos original utilizado en la aplicación
-└── README.md            # Archivo de documentación con detalles del proyecto
-```
+## 🧩 Funcionalidades de la aplicación
+La aplicación web permite:
 
-## 📌 Tecnologías utilizadas
+- Mostrar encabezados informativos
+- Generar un **histograma interactivo** mediante Plotly Express
+- Generar un **gráfico de dispersión interactivo**
+- Interactuar con los gráficos mediante botones o casillas de verificación
+- Explorar visualmente los datos desde un navegador web
 
-- Python
-- Pandas  
-- Plotly-express  
-- Streamlit  
+---
 
+## 🗂️ Estructura del proyecto
+El repositorio cuenta con la siguiente estructura mínima:
 
-
-
+```text
+.
+├── README.md
+├── app.py
+├── vehicles_us.csv
+├── requirements.txt
+└── notebooks
+    └── EDA.ipynb
