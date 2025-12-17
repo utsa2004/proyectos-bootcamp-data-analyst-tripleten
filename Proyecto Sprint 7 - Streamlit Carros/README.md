@@ -46,7 +46,6 @@ El repositorio cuenta con la siguiente estructura mínima:
 ├── requirements.txt
 └── notebooks
     └── EDA.ipynb
----
 
 ## 📁 Descripción de archivos
 - **app.py**: archivo principal de la aplicación Streamlit  
@@ -91,4 +90,5 @@ La aplicación web se encuentra desplegada y accesible desde el navegador en el 
 
 ## 🧠 Nota final
 Este proyecto demuestra habilidades prácticas en **desarrollo de aplicaciones web para datos**, gestión de entornos virtuales, estructuración de proyectos y despliegue en la nube, complementando las competencias de análisis de datos con fundamentos de ingeniería de software.
+
 
