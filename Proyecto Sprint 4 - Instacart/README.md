@@ -36,7 +36,7 @@ Estas tablas se integran para permitir un análisis completo del comportamiento 
 ### 🔹 Etapa 1: Descripción de los datos
 - Lectura de archivos CSV con formato no estándar (`sep=';'`)
 - Exploración inicial con `head()` e `info()`
-- Uso de `info(show_counts=True)` para DataFrames con millones de filas
+- Uso de `info(show_counts=True)` para DataFrames con un gran volumen de filas
 - Identificación de valores ausentes, duplicados y tipos de datos inconsistentes
 
 ---
@@ -46,7 +46,7 @@ Estas tablas se integran para permitir un análisis completo del comportamiento 
 - Tratamiento diferenciado de valores ausentes:
   - Identificación de valores NaN con significado lógico (primer pedido)
   - Relleno controlado de valores ausentes en nombres de productos
-  - Asignación de valores sentinela en órdenes del carrito
+  
 - Eliminación de duplicados explícitos
 - Validación de duplicados implícitos sin impacto analítico
 - Normalización de nombres de productos
