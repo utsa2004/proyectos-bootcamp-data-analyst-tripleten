@@ -69,7 +69,7 @@ El repositorio cuenta con la siguiente estructura mínima:
 ---
 
 ## 🌐 Aplicación desplegada
-🔗 **[Coloca aquí la URL real de tu aplicación en Render]**
+🔗 **[https://proyecto-oferta-carros-usados.onrender.com]**
 
 ---
 
@@ -88,5 +88,6 @@ El repositorio cuenta con la siguiente estructura mínima:
 
 ## 🧠 Nota final
 Este proyecto demuestra habilidades prácticas en **desarrollo de aplicaciones web para datos**, gestión de entornos virtuales, estructuración de proyectos y despliegue en la nube.
+
 
 
