@@ -31,6 +31,13 @@ Los datos fueron agregados a nivel **mensual por usuario** para facilitar el an�
 
 ---
 
+### Conjuntos de datos utilizados
+- `megaline_users.csv` – información de clientes y regiones
+- `megaline_calls.csv` – registros de llamadas por usuario
+- `megaline_messages.csv` – mensajes enviados
+- `megaline_internet.csv` – consumo de datos móviles
+- `megaline_plans.csv` – detalles de tarifas y precios
+
 ## 🧩 Etapas del análisis
 
 ### 🔹 Etapa 1: Exploración y preparación de datos
@@ -126,6 +133,6 @@ El análisis respalda la toma de decisiones comerciales basada en datos y eviden
 
 ---
 
-## 🧠 Nota para reclutadores
+## 🧠 Nota Final
 Este proyecto demuestra experiencia en **análisis estadístico aplicado**, integración de datos de telecomunicaciones y traducción de resultados cuantitativos en **recomendaciones de negocio**.
 
