@@ -27,18 +27,18 @@ El conjunto de datos se utiliza únicamente con fines de **visualización y expl
 ## 🧩 Funcionalidades de la aplicación
 La aplicación web permite:
 
-- Mostrar encabezados informativos
-- Generar un **histograma interactivo** con Plotly Express
-- Generar un **gráfico de dispersión interactivo**
-- Interactuar con los gráficos mediante botones o casillas de verificación
-- Explorar visualmente los datos desde un navegador web
+- Mostrar encabezados informativos  
+- Generar un **histograma interactivo**  
+- Generar un **gráfico de dispersión interactivo**  
+- Interactuar con los gráficos mediante botones o casillas de verificación  
+- Explorar visualmente los datos desde un navegador web  
 
 ---
 
 ## 🗂️ Estructura del proyecto
 El repositorio cuenta con la siguiente estructura mínima:
 
-```text
+```
 .
 ├── README.md
 ├── app.py
@@ -46,6 +46,9 @@ El repositorio cuenta con la siguiente estructura mínima:
 ├── requirements.txt
 └── notebooks
     └── EDA.ipynb
+```
+
+---
 
 ## 📁 Descripción de archivos
 - **app.py**: archivo principal de la aplicación Streamlit  
@@ -66,18 +69,13 @@ El repositorio cuenta con la siguiente estructura mínima:
 ---
 
 ## 🌐 Aplicación desplegada
-La aplicación web se encuentra desplegada y accesible desde el navegador en el siguiente enlace:
-
 🔗 **[Coloca aquí la URL real de tu aplicación en Render]**
 
 ---
 
 ## 📂 Archivos principales
-- 📓 Notebook de exploración:  
-  `notebooks/EDA.ipynb`
-
-- 🖥️ Aplicación web:  
-  `app.py`
+- 📓 Notebook de exploración: `notebooks/EDA.ipynb`  
+- 🖥️ Aplicación web: `app.py`
 
 ---
 
@@ -89,6 +87,6 @@ La aplicación web se encuentra desplegada y accesible desde el navegador en el 
 ---
 
 ## 🧠 Nota final
-Este proyecto demuestra habilidades prácticas en **desarrollo de aplicaciones web para datos**, gestión de entornos virtuales, estructuración de proyectos y despliegue en la nube, complementando las competencias de análisis de datos con fundamentos de ingeniería de software.
+Este proyecto demuestra habilidades prácticas en **desarrollo de aplicaciones web para datos**, gestión de entornos virtuales, estructuración de proyectos y despliegue en la nube.
 
 
