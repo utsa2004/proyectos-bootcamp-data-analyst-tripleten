@@ -1,60 +1,66 @@
 # 📊 Proyecto Sprint 2 – Store (Continuación)  
-## Segmentación de Clientes y Análisis de Tendencias de Consumo
+## Análisis de Clientes y Lógica de Negocio con Python
 
 **Bootcamp de Data Analytics – TripleTen**
 
 ---
 
 ## 📌 Descripción del proyecto
-En esta segunda etapa del proyecto **Store 1**, se continúa el trabajo iniciado en el Sprint 1, avanzando desde la preparación de datos hacia un **análisis más profundo del comportamiento de los clientes**.
+En esta segunda etapa del proyecto **Store 1**, se amplía el trabajo iniciado en el Sprint 1, avanzando desde la limpieza básica de datos hacia un **análisis más completo del comportamiento de los clientes utilizando Python**.
 
-La empresa busca **personalizar mejor sus campañas publicitarias**, por lo que ahora es necesario analizar datos más complejos, identificar patrones de consumo y realizar segmentación de clientes con base en su comportamiento y evolución en el tiempo.
+La empresa busca personalizar mejor sus campañas publicitarias y comprender a sus clientes a través de reglas de negocio, análisis de gasto, categorías de compra y condiciones lógicas aplicadas directamente sobre estructuras de datos.
 
-Este proyecto simula un entorno real de trabajo para un **Data Analyst junior**, donde los requerimientos del negocio aumentan progresivamente y exigen un análisis más estructurado y orientado a la toma de decisiones.
+Este proyecto simula un escenario real de trabajo para un **Data Analyst junior**, donde se deben transformar datos, construir funciones reutilizables y generar información útil para el negocio sin depender aún de librerías especializadas.
 
 ---
 
 ## 🎯 Objetivo del proyecto
-Analizar el comportamiento de los clientes de Store 1 mediante segmentación y análisis de tendencias, con el fin de apoyar la personalización de campañas publicitarias y futuras estrategias de marketing.
+Analizar el comportamiento de los clientes de Store 1 mediante limpieza avanzada de datos, lógica condicional y cálculo de métricas, con el fin de apoyar decisiones de marketing y fidelización.
 
 ---
 
 ## 🧩 Tareas realizadas
-Durante este proyecto se realizaron las siguientes actividades:
+Durante este proyecto se llevaron a cabo las siguientes actividades:
 
-- Exploración y análisis de datos preparados en el Sprint 1  
-- Segmentación de clientes con base en variables demográficas y de consumo  
-- Análisis de tendencias de compra a lo largo del tiempo  
-- Identificación de patrones de comportamiento relevantes  
-- Preparación de insights para apoyar decisiones de marketing  
+- Limpieza avanzada de datos de clientes (nombres, edades y categorías)
+- Creación de funciones reutilizables para estandarizar información
+- Transformación de categorías a formato consistente
+- Cálculo de gasto total por cliente
+- Cálculo de ingresos totales de la empresa
+- Identificación de clientes leales según reglas de negocio
+- Filtrado de clientes por edad, categoría y nivel de gasto
+- Construcción de funciones para obtener información de clientes por categoría
 
 ---
 
 ## 🗂️ Datos analizados
-Se trabajó con datos de clientes de Store 1, previamente limpiados y estructurados, que incluyen:
+Los datos de Store 1 se trabajan en formato de **listas de Python**, donde cada cliente contiene:
 
-- Identificadores de usuario  
-- Información demográfica  
-- Historial de compras  
-- Categorías de productos  
-- Gasto acumulado y comportamiento de consumo  
+- Identificador único del cliente
+- Nombre y apellido
+- Edad
+- Categorías de productos comprados
+- Montos gastados por categoría
 
 ---
 
 ## 🛠️ Herramientas y tecnologías utilizadas
 - **Python**
-- Estructuras de datos (listas, diccionarios)
-- Análisis exploratorio de datos (EDA)
-- Lógica condicional y funciones
-- Cálculo de métricas de negocio
+- Estructuras de datos (listas, sublistas)
+- Funciones personalizadas
+- Bucles `for` y `while`
+- Condicionales `if`
+- Funciones integradas (`sum`, `int`, `lower`, `split`)
+- Lógica de negocio aplicada a datos
 
 ---
 
 ## 📈 Resultados y aprendizajes clave
-- Se identificaron **segmentos de clientes** con comportamientos de compra diferenciados.
-- Se detectaron **tendencias de consumo** útiles para la planificación de campañas personalizadas.
-- El proyecto refuerza la transición de tareas de limpieza de datos hacia análisis orientado al negocio.
-- Se fortalecieron habilidades para trabajar con requerimientos más complejos y datasets más estructurados.
+- Se obtuvo una estructura de datos limpia y consistente para todos los clientes.
+- Se desarrollaron funciones reutilizables para estandarizar información.
+- Se calcularon métricas clave como ingresos totales y gasto por cliente.
+- Se identificaron segmentos de clientes según edad, categoría de compra y nivel de gasto.
+- El proyecto fortalece la base lógica necesaria para análisis más avanzados en etapas posteriores.
 
 ---
 
@@ -65,13 +71,13 @@ Se trabajó con datos de clientes de Store 1, previamente limpiados y estructura
 ---
 
 ## 🔎 Contexto adicional
-Este proyecto da continuidad directa al **Sprint 1**, demostrando un flujo de trabajo progresivo que va desde la preparación de datos hasta el análisis del comportamiento del cliente, un escenario común en proyectos reales de analítica.
+Este proyecto continúa directamente el trabajo del **Sprint 1**, mostrando una progresión clara desde la preparación básica de datos hacia análisis de negocio mediante lógica de programación, una habilidad esencial para roles de Data Analyst.
 
 ---
 
 ### ✅ Estado del proyecto
 ✔ Proyecto completado  
-✔ Análisis listo para apoyar decisiones de marketing  
+✔ Análisis funcional y validado  
 
 ---
 
@@ -81,5 +87,4 @@ Este proyecto da continuidad directa al **Sprint 1**, demostrando un flujo de tr
 ---
 
 ## 🧠 Nota para reclutadores
-Este proyecto demuestra la capacidad de escalar un análisis inicial hacia **segmentación de clientes y análisis de tendencias**, habilidades clave para roles de Data Analyst orientados al negocio.
-
+Este proyecto demuestra sólidas bases en **análisis de datos con Python sin librerías externas**, manejo de lógica de negocio y construcción de funciones reutilizables, competencias fundamentales para un Data Analyst junior.
