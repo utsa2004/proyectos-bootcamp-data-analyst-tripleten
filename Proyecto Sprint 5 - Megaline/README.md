@@ -32,11 +32,11 @@ Los datos fueron agregados a nivel **mensual por usuario** para facilitar el an�
 ---
 
 ### Conjuntos de datos utilizados
-- `megaline_users.csv` – información de clientes y regiones
-- `megaline_calls.csv` – registros de llamadas por usuario
-- `megaline_messages.csv` – mensajes enviados
-- `megaline_internet.csv` – consumo de datos móviles
-- `megaline_plans.csv` – detalles de tarifas y precios
+- `users.csv` – información de clientes y regiones
+- `calls.csv` – registros de llamadas por usuario
+- `messages.csv` – mensajes enviados
+- `internet.csv` – consumo de datos móviles
+- `plans.csv` – detalles de tarifas y precios
 
 ---
 
