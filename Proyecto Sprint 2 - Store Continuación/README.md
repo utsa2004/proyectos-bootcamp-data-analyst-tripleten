@@ -86,5 +86,5 @@ Este proyecto continúa directamente el trabajo del **Sprint 1**, mostrando una 
 
 ---
 
-## 🧠 Nota para reclutadores
+## 🧠 Nota Final
 Este proyecto demuestra sólidas bases en **análisis de datos con Python sin librerías externas**, manejo de lógica de negocio y construcción de funciones reutilizables, competencias fundamentales para un Data Analyst junior.
