@@ -38,6 +38,8 @@ Los datos fueron agregados a nivel **mensual por usuario** para facilitar el an�
 - `megaline_internet.csv` – consumo de datos móviles
 - `megaline_plans.csv` – detalles de tarifas y precios
 
+---
+
 ## 🧩 Etapas del análisis
 
 ### 🔹 Etapa 1: Exploración y preparación de datos
