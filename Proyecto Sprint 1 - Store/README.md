@@ -85,5 +85,5 @@ Este proyecto representa el **primer acercamiento práctico al análisis de dato
 
 ---
 
-## 🧠 Nota para reclutadores
+## 🧠 Nota Final
 Este proyecto demuestra sólidas bases en **limpieza, validación y manipulación de datos con Python**, competencias esenciales en las primeras etapas del ciclo de análisis de datos.
