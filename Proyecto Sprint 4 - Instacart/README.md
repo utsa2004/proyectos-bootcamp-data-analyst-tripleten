@@ -119,6 +119,6 @@ Se identifican oportunidades claras para:
 
 ---
 
-## 🧠 Nota para reclutadores
+## 🧠 Nota Final
 Este proyecto demuestra experiencia en **limpieza de datos complejos**, integración de múltiples tablas y análisis exploratorio orientado a negocio en un entorno real de e-commerce.
 
