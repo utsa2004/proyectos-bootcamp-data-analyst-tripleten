@@ -1,4 +1,4 @@
-# 🥗 Proyecto Sprint 12 – Farming  
+# 🥗 Proyecto Sprint 11 – Farming  
 ## Análisis de Embudo de Conversión y Test A/A/B en una App de Productos Alimenticios
 
 **Bootcamp de Data Analytics – TripleTen**
