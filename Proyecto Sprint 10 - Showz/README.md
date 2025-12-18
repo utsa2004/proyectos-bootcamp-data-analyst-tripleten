@@ -1,172 +1,161 @@
-# Proyecto Sprint 10 – Showz: Análisis de Comportamiento de Usuarios y Rentabilidad de Marketing  
+# 🎟️ Proyecto Sprint 10 – Showz  
+## Análisis de Negocio y Marketing para Plataforma de Venta de Entradas
+
 **Bootcamp de Data Analytics – TripleTen**
 
 ---
 
 ## 📌 Descripción del proyecto
-Este proyecto analiza el comportamiento de los usuarios en **Showz**, una plataforma dedicada a la venta de entradas para eventos en línea. El objetivo es evaluar:
+Showz es una plataforma dedicada a la venta de entradas para eventos en línea.  
+El equipo de marketing busca entender el comportamiento de los usuarios desde su primera visita hasta la compra, así como evaluar la efectividad de las campañas publicitarias y el valor que generan los clientes a lo largo del tiempo.
 
-- El desempeño de las campañas de marketing  
-- El valor que generan los usuarios a lo largo del tiempo  
-- La rentabilidad de cada fuente de adquisición  
-- Las oportunidades estratégicas para optimizar la inversión publicitaria  
-
-Para ello se emplean tres datasets principales:
-
-- **visits:** registros de visitas, sesiones y fuentes de tráfico  
-- **orders:** historial de pedidos e ingresos por usuario  
-- **costs:** inversión en marketing por fuente y fecha  
-
-El análisis integra técnicas de limpieza de datos, métricas de negocio, cohortes, visualización, y cálculos de CAC, LTV y ROMI.
+En este proyecto se realiza un **análisis integral de negocio**, combinando datos de visitas, pedidos y costos de marketing para medir métricas clave como **CAC, LTV y ROMI**, y generar recomendaciones estratégicas basadas en datos reales.
 
 ---
 
 ## 🎯 Objetivo del proyecto
-Brindar recomendaciones estratégicas al equipo de marketing sobre:
+Evaluar el desempeño de las campañas de marketing de Showz para:
 
-- Dónde invertir  
-- Cuánto invertir  
-- Qué canales escalar o reducir  
-
-Basado en la rentabilidad real de cada fuente, el valor del cliente y el comportamiento observado en la plataforma.
-
----
-
-## 📂 Paso 1 – Preparación de los datos
-
-Se realiza una exploración inicial de los datasets:
-
-### ✔ Validaciones realizadas
-- Identificación de valores nulos y duplicados  
-- Conversión de datos a formatos adecuados (`datetime`, numéricos, categóricos)  
-- Verificación de consistencia entre fechas y registros  
-- Revisión de unicidad e integridad por usuario y fuente  
-
-### ✔ Variables clave analizadas
-- Duración de sesiones  
-- Frecuencia de visitas  
-- Fechas de conversión  
-- Ingresos generados por usuario  
-- Costo de adquisición por campaña  
-
-Esta base garantiza un análisis sólido y libre de errores estructurales.
+- Identificar los canales de adquisición más rentables  
+- Optimizar la distribución del presupuesto publicitario  
+- Maximizar el retorno sobre la inversión en marketing (ROMI)  
+- Comprender el comportamiento de los usuarios a lo largo del tiempo  
 
 ---
 
-## 📈 Paso 2 – Métricas clave del negocio
+## 📂 Conjuntos de datos utilizados
+Se trabajó con tres fuentes principales de datos:
 
-Durante esta fase se analizan tres áreas principales:
+- **visits**: registros de visitas a la plataforma (inicio y fin de sesión, dispositivo, fuente de tráfico)
+- **orders**: historial de pedidos realizados por los usuarios (fecha de compra e ingresos)
+- **costs**: gastos de marketing por fuente de adquisición y fecha
 
----
-
-### 🔹 **1. Comportamiento de visitas**
-- Volumen de usuarios diarios  
-- Sesiones promedio por usuario  
-- Diferencias entre dispositivos  
-- Desempeño por fuente de tráfico  
-
-### 🔹 **2. Dinámica de ventas**
-- Momento en que los usuarios compran  
-- Número de pedidos por usuario  
-- Cálculo del **LTV (Lifetime Value)**  
-- Análisis de cohortes por fecha de adquisición  
-
-### 🔹 **3. Rendimiento del marketing**
-Se calculan:
-
-| Métrica | Descripción |
-|--------|-------------|
-| **CAC** | Costo de adquirir un nuevo cliente |
-| **LTV** | Valor de ingresos generado por cliente |
-| **ROMI** | Retorno de la inversión en marketing |
-| Tiempo hasta la conversión | Días entre primera visita y primera compra |
-
-Además se generan visualizaciones que muestran:
-
-- Eficiencia comparada entre fuentes  
-- Evolución del gasto vs. ingresos  
-- Distribución de clientes por canal  
-- Relación entre dispositivos y conversión  
+Estos datasets permitieron analizar el recorrido completo del usuario, desde la adquisición hasta la generación de ingresos.
 
 ---
 
-## 🧠 Paso 3 – Conclusiones estratégicas
+## 🧩 Estructura del análisis
 
-### 🔝 **Fuentes más rentables:** 1, 2 y 5  
-Estas fuentes destacan porque:
-
-- Tienen los mejores ROMI:
-  - Fuente 1 → **ROMI: 110.31**  
-  - Fuente 2 → **ROMI: 61.63**  
-  - Fuente 5 → **ROMI: 22.83**
-- Presentan un balance sólido entre **LTV alto y CAC medio-bajo**  
-- Generan conversiones rápidas y comportamiento recurrente  
-
-📌 **Recomendación:**  
-Destinar **60–70% del presupuesto total** a estas fuentes, dando mayor prioridad a la fuente 1 por su excepcional retorno.
+### 🔹 Paso 1: Preparación de los datos
+- Carga y exploración inicial de los datasets
+- Revisión de valores nulos y duplicados
+- Verificación y corrección de tipos de datos (fechas, valores numéricos)
+- Transformaciones necesarias para el análisis de métricas de negocio
 
 ---
 
-### ⚠️ **Fuentes que requieren ajustes:** 3 y 10
+### 🔹 Paso 2: Informes y métricas clave
+El análisis se centró en tres dimensiones principales:
 
-#### **Fuente 3**  
-- Acapara **43% del presupuesto total**  
-- Tiene un **ROMI muy bajo: 2.10**  
-- Presenta el CAC más alto (10.21)
+#### 📈 Visitas
+- Número de usuarios
+- Frecuencia de visitas
+- Duración de sesiones
+- Comportamiento por dispositivo y fuente de tráfico
 
-➡️ **Recomendación:** Optimizar segmentación o pausar temporalmente si no mejora.
+#### 💰 Ventas
+- Número de pedidos
+- Ingresos generados
+- Valor de vida del cliente (LTV)
+- Comportamiento de compra a lo largo del tiempo
 
-#### **Fuente 10**  
-- ROMI bajo (**2.51**)  
-- Bajo volumen de compradores  
-- CAC bajo, pero ingresos insuficientes
+#### 📣 Marketing
+- Costo de adquisición de clientes (CAC)
+- Retorno sobre la inversión en marketing (ROMI)
+- Comparación de desempeño entre fuentes de adquisición
 
-➡️ **Recomendación:** Mantener solo como canal experimental <5%.
-
----
-
-### 🧪 **Fuente con potencial de crecimiento:** 9
-
-- CAC más bajo del conjunto (**1.98**)  
-- ROMI aún moderado (**6.59**)  
-- Comportamiento prometedor
-
-➡️ **Recomendación:** Incremento gradual de presupuesto.
+Se utilizaron visualizaciones para analizar tendencias, comparar fuentes y evaluar la evolución de las métricas clave.
 
 ---
 
-## 📊 Métricas clave utilizadas
-- **CAC:** eficiencia económica por cliente adquirido  
-- **LTV:** valor promedio generado por usuario  
-- **ROMI:** retorno real del gasto publicitario  
-- **Análisis de comportamiento:** tamaño de compra, recurrencia, velocidad de conversión  
+## 🧪 Métricas utilizadas
+Las decisiones de negocio se basaron principalmente en:
+
+- **CAC (Customer Acquisition Cost)**: costo promedio para adquirir un cliente
+- **LTV (Lifetime Value)**: ingreso promedio generado por cliente
+- **ROMI (Return on Marketing Investment)**: rentabilidad real de cada fuente de marketing
+- Métricas de comportamiento: tiempo hasta la conversión y tamaño promedio de compra
 
 ---
 
-## 🧩 Conclusión final
-El análisis muestra que Showz ya posee canales de marketing altamente rentables que deben escalarse, mientras que otros requieren una revisión profunda o reducción de inversión.  
-Aplicar esta redistribución optimizada permitirá:
+## 📊 Resultados clave
 
-- Mejorar el retorno financiero del marketing  
-- Aumentar la adquisición eficiente de usuarios  
-- Construir una base de clientes rentable y sostenible  
-- Tomar decisiones estratégicas basadas en datos reales  
+### 🔝 Fuentes recomendadas: 1, 2 y 5
+Estas fuentes destacan como las más eficientes y rentables:
+
+- **Fuente 1**: ROMI ≈ 110.31  
+- **Fuente 2**: ROMI ≈ 61.63  
+- **Fuente 5**: ROMI ≈ 22.83  
+
+Presentan:
+- Alto retorno por dólar invertido
+- Buen equilibrio entre LTV y CAC
+- Comportamiento positivo en conversión y recurrencia
 
 ---
 
-## 🧰 Habilidades utilizadas
-- Python (Pandas, NumPy, Matplotlib, Seaborn)  
-- ETL básico  
-- Análisis de cohortes  
-- Métricas de negocio (CAC, LTV, ROMI)  
+### ⚠️ Fuentes a revisar: 3 y 10
+- **Fuente 3**:
+  - Alta inversión (~43% del presupuesto)
+  - ROMI bajo (≈ 2.10)
+  - CAC más alto del conjunto  
+  - Recomendación: optimizar campañas o suspender temporalmente
+
+- **Fuente 10**:
+  - ROMI bajo (≈ 2.51)
+  - Bajo volumen de compradores  
+  - Recomendación: mantener inversión mínima (<5%) como canal experimental
+
+---
+
+### 🧪 Fuente con potencial de crecimiento: 9
+- CAC más bajo del análisis (≈ 1.98)
+- ROMI moderado (≈ 6.59)
+- Recomendación: aumentar gradualmente la inversión y evaluar su escalabilidad
+
+---
+
+## 🧠 Conclusiones y recomendaciones
+El análisis demuestra que Showz cuenta con canales altamente rentables que deben ser priorizados, mientras que otros requieren ajustes o reducción de inversión.
+
+**Recomendación principal:**
+- Redistribuir el presupuesto de marketing asignando **60%–70%** a las fuentes **1, 2 y 5**, con mayor peso en la fuente 1 debido a su alto retorno.
+
+Esta estrategia permitiría:
+- Mejorar el rendimiento financiero del marketing
+- Atraer clientes más valiosos
+- Construir una base de usuarios más rentable y sostenible a largo plazo
+
+---
+
+## 🛠️ Herramientas y tecnologías utilizadas
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Análisis de métricas de negocio  
 - Visualización de datos  
-- Evaluación de rentabilidad  
-- Storytelling analítico  
+
+---
+
+## 📂 Archivos del proyecto
+📓 **Notebook principal**:  
+- `notebook - Showz.ipynb`
+
+---
+
+## ✅ Estado del proyecto
+- ✔ Proyecto completado  
+- ✔ Métricas de negocio analizadas  
+- ✔ Recomendaciones estratégicas documentadas  
 
 ---
 
 ## 🔗 Enlace al repositorio
-https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2010%20-%20Showz
+📎 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2010%20-%20Showz
 
 ---
 
+## 🧠 Nota final
+Este proyecto demuestra la capacidad de realizar un análisis de negocio orientado a marketing, integrando datos de usuarios, ventas y costos para generar recomendaciones estratégicas basadas en métricas clave como CAC, LTV y ROMI.
