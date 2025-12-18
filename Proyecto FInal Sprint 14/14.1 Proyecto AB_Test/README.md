@@ -143,6 +143,11 @@ Desde una perspectiva de negocio, se concluye que **no es recomendable implement
 
 ---
 
+## 🔗 Enlace al repositorio
+📎 
+
+---
+
 ## 🧭 Nota final
 
 Este proyecto demuestra la importancia de **validar hipótesis de negocio mediante análisis estadístico riguroso**. Aunque el experimento no validó la mejora esperada, el proceso analítico permitió obtener información valiosa sobre el comportamiento del usuario y sentar bases sólidas para futuras iteraciones del sistema de recomendaciones.
