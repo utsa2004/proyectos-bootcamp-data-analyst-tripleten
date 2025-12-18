@@ -18,8 +18,6 @@ En este proyecto se desarrolló un **dashboard interactivo en Tableau** para ana
 
 El dashboard permite explorar cómo evolucionan las tendencias de videos a lo largo del tiempo, cómo se distribuyen por país y categoría, y qué tipos de contenido son particularmente populares en regiones específicas, como Estados Unidos.
 
-Este proyecto está orientado a **usuarios de negocio** (gerentes de planificación de contenido publicitario), por lo que se priorizó la claridad visual, la interactividad y la facilidad de interpretación.
-
 ---
 
 ## 🎯 Objetivo del proyecto
@@ -115,6 +113,12 @@ El dashboard completo puede consultarse públicamente en Tableau Public:
 ✔ Dashboard publicado y accesible públicamente  
 ✔ Requisitos técnicos cumplidos  
 ✔ Análisis visual alineado a objetivos de negocio  
+
+---
+
+## 🔗 Enlace al repositorio
+
+📎 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2013%20-%20YouTube%20Dashboard
 
 ---
 
