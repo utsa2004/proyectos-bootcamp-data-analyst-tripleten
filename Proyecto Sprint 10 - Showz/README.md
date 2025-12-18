@@ -1,4 +1,4 @@
-# 🎟️ Proyecto Sprint 10 – Showz  
+# 🎟️ Proyecto Sprint 9 – Showz  
 ## Análisis de Negocio y Marketing para Plataforma de Venta de Entradas
 
 **Bootcamp de Data Analytics – TripleTen**
