@@ -144,7 +144,7 @@ Desde una perspectiva de negocio, se concluye que **no es recomendable implement
 ---
 
 ## 🔗 Enlace al repositorio
-📎 
+📎 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20FInal%20Sprint%2014/14.1%20Proyecto%20AB_Test
 
 ---
 
