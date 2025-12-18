@@ -5,7 +5,9 @@
 
 ## 📷 Vista previa del dashboard
 
-> *(En la siguiente iteración se incluirá una imagen del dashboard directamente en este README, similar al formato utilizado en el Sprint 7).*
+<img width="746" height="553" alt="dashboard_preview" src="https://github.com/user-attachments/assets/f88d2d9d-1819-4cbe-baab-0aa1700deee8" />
+
+📊 *Vista previa del dashboard interactivo desarrollado en Tableau Public, que muestra la evolución histórica de videos en tendencia en YouTube, segmentada por categoría, país y periodo de tiempo, con filtros dinámicos para apoyar la toma de decisiones en campañas de marketing digital.*
 
 ---
 
