@@ -1,66 +1,154 @@
-# 🛒 Proyecto Sprint 11 – Análisis de Negocio para Tienda Online BigWeb  
+# 🧪 Proyecto Sprint 11 – A/B Testing y Priorización de Hipótesis (BigWeb)
+## Evaluación de Experimentos para Incrementar Ingresos en una Tienda Online
+
 **Bootcamp de Data Analytics – TripleTen**
 
 ---
 
-## 📌 Descripción general
+## 📌 Descripción del proyecto
+En este proyecto se realizó un análisis integral de un **experimento A/B** para la empresa ficticia **BigWeb**, una plataforma de comercio electrónico interesada en **incrementar sus ingresos** mediante cambios en la experiencia del usuario.
 
-Este proyecto consiste en un análisis integral de un **experimento A/B** realizado por **BigWeb**, una tienda online ficticia interesada en mejorar sus ingresos mediante cambios en su plataforma.  
-El objetivo central es evaluar si las modificaciones aplicadas al grupo experimental generan mejoras significativas en métricas clave del negocio.
+El análisis se dividió en dos grandes fases:
 
-El análisis combina **priorización de hipótesis**, **preparación de datos**, **evaluación estadística** y **recomendaciones accionables**, integrando metodologías utilizadas por equipos reales de marketing, producto y data science.
-
----
-
-## 🎯 Objetivo del Proyecto
-
-El propósito principal es **evaluar, con evidencia estadística**, si los cambios del experimento A/B conducen a:
-
-- Aumentar la tasa de conversión.  
-- Incrementar el ingreso promedio por pedido.  
-- Mejorar los ingresos totales de BigWeb.  
-
-Adicionalmente, se busca:
-
-- Priorizar hipótesis de alto impacto mediante ICE y RICE.  
-- Identificar oportunidades para optimizar el desempeño comercial de la plataforma.  
-- Promover decisiones estratégicas basadas en datos dentro del negocio.
+1. **Priorización de hipótesis de negocio** propuestas por el equipo de marketing.
+2. **Evaluación estadística de un test A/B**, con el objetivo de determinar si el cambio aplicado al grupo experimental generó un impacto significativo en métricas clave como la **tasa de conversión** y el **ingreso promedio por pedido**.
 
 ---
 
-## 🔍 Estructura del Proyecto
-
-El proyecto se desarrolló en **cuatro etapas principales**:
-
----
-
-### 📌 **1. Priorización de hipótesis**
-
-Antes del análisis, se revisó una lista de hipótesis generadas por marketing y se priorizaron usando:
-
-- **ICE (Impact – Confidence – Ease)**  
-- **RICE (Reach – Impact – Confidence – Effort)**  
-
-Esto permitió seleccionar aquellas ideas con mayor potencial de generar valor comercial.  
-La **Hipótesis 7 ("Agregar un formulario de suscripción en todas las páginas principales")** resultó la mejor posicionada.
+## 🎯 Objetivo del proyecto
+Ayudar a BigWeb a tomar **decisiones estratégicas basadas en datos**, utilizando frameworks de priorización y pruebas estadísticas para evaluar si una hipótesis de mejora debe implementarse, descartarse o seguir evaluándose.
 
 ---
 
-### 📁 **2. Preparación y validación de datos**
+## 📂 Conjuntos de datos utilizados
 
-Se trabajó con múltiples fuentes de datos relacionadas con usuarios, pedidos y sesiones.  
-Las tareas clave incluyeron:
+### 📁 Priorización de hipótesis
+- **`hypotheses_us.csv`**
+  - `Hypotheses`: descripción de la hipótesis
+  - `Reach`: alcance del usuario (1–10)
+  - `Impact`: impacto esperado (1–10)
+  - `Confidence`: nivel de confianza (1–10)
+  - `Effort`: esfuerzo requerido (1–10)
 
-- Eliminación de duplicados y valores nulos.  
-- Ajustes de tipos de datos y formatos.  
-- Integración de tablas a nivel usuario y pedido.  
-- Validación de consistencia y calidad para asegurar un análisis confiable.
+### 📁 Análisis del test A/B
+- **`orders_us.csv`**
+  - `transactionId`: identificador del pedido
+  - `visitorId`: identificador del usuario
+  - `date`: fecha del pedido
+  - `revenue`: ingresos del pedido
+  - `group`: grupo A/B
 
-Para el análisis se emplearon las siguientes librerías:
+- **`visits_us.csv`**
+  - `date`: fecha
+  - `group`: grupo A/B
+  - `visits`: número de visitas por día
 
-```python
-import pandas as pd
-import numpy as np
-from matplotlib import pyplot as plt
-import seaborn as sns
-from scipy import stats as st
+---
+
+## 🧩 Estructura del análisis
+
+### 🔹 Paso 1: Priorización de hipótesis
+Se evaluaron nueve hipótesis propuestas por el área de marketing utilizando dos frameworks:
+
+- **ICE** (Impact, Confidence, Effort)
+- **RICE** (Reach, Impact, Confidence, Effort)
+
+Esto permitió comparar cómo cambia la priorización al incorporar el alcance de usuarios, justificando la selección de la hipótesis más prometedora.
+
+---
+
+### 🔹 Paso 2: Preparación de los datos
+- Carga y exploración inicial de los datasets
+- Conversión de tipos de datos (fechas y valores numéricos)
+- Detección de usuarios presentes en ambos grupos
+- Eliminación de duplicados y validación de consistencia
+
+---
+
+### 🔹 Paso 3: Análisis del test A/B
+Se analizaron métricas clave para comparar los grupos A y B:
+
+- Ingreso acumulado
+- Tamaño promedio de pedido acumulado
+- Diferencia relativa entre grupos
+- Tasa de conversión diaria
+- Distribución de pedidos por usuario
+- Distribución de precios de pedidos
+
+El análisis se realizó:
+- Con **datos en bruto**
+- Con **datos filtrados**, eliminando valores atípicos mediante percentiles 95 y 99
+
+---
+
+### 🔹 Paso 4: Pruebas estadísticas
+Se aplicaron pruebas de significancia para evaluar diferencias entre los grupos:
+
+- Prueba de Mann-Whitney U para:
+  - Tasa de conversión
+  - Tamaño promedio de pedido
+- Evaluación con datos en bruto y datos filtrados
+- Nivel de significancia definido explícitamente (α = 0.05)
+
+---
+
+## 📈 Resultados clave
+
+- **Tasa de conversión**:
+  - El grupo B mostró una mejora estadísticamente significativa frente al grupo A.
+- **Ingreso promedio por pedido**:
+  - No se identificaron diferencias estadísticamente significativas.
+  - Al eliminar valores atípicos, el grupo B presentó un ingreso promedio ligeramente menor.
+- **Impacto global**:
+  - El aumento en conversión no se tradujo en un incremento significativo de ingresos totales.
+
+---
+
+## 🧾 Decisión final del experimento
+🔴 **Se recomienda detener la prueba y no implementar la variante B**, ya que:
+
+- Aunque la conversión mejoró,  
+- No hubo evidencia estadística de un aumento en el ingreso promedio por pedido,  
+- El impacto económico global no justifica la adopción del cambio.
+
+---
+
+## 💡 Recomendaciones adicionales
+- Generar y evaluar nuevas hipótesis enfocadas directamente en **incrementar el ticket promedio**.
+- Analizar segmentos específicos (usuarios nuevos vs recurrentes).
+- Explorar combinaciones de estrategias de conversión con técnicas de **upselling y cross-selling**.
+
+---
+
+## 🛠️ Herramientas y tecnologías utilizadas
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- SciPy (stats)  
+- Análisis A/B  
+- Estadística inferencial  
+
+---
+
+## 📂 Archivos del proyecto
+📓 **Notebook principal**:  
+- `Proyecto Sprint 11 - BigWeb.ipynb`
+
+---
+
+## ✅ Estado del proyecto
+- ✔ Hipótesis priorizadas con ICE y RICE  
+- ✔ Test A/B analizado estadísticamente  
+- ✔ Decisión basada en evidencia
+
+---
+
+## 🔗 Enlace al repositorio
+📎 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2011%20BigWeb
+
+---
+
+## 🧠 Nota final
+Este proyecto demuestra la capacidad de **diseñar, analizar e interpretar experimentos A/B**, priorizar hipótesis de negocio y traducir resultados estadísticos en **decisiones estratégicas accionables**, fortaleciendo una cultura de toma de decisiones basada en datos.
