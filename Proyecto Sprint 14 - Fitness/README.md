@@ -147,7 +147,7 @@ Los modelos fueron evaluados utilizando:
 
 ## 🔗 Repositorio del proyecto
 
-👉 *(enlace al repositorio de GitHub)*
+👉 *(https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2014%20-%20Fitness)*
 
 ---
 
