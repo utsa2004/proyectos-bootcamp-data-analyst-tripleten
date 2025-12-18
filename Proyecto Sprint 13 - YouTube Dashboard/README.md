@@ -5,7 +5,7 @@
 
 ## 📷 Vista previa del dashboard
 
-<img width="746" height="553" alt="dashboard_preview" src="https://github.com/user-attachments/assets/f88d2d9d-1819-4cbe-baab-0aa1700deee8" />
+<img width="662" height="501" alt="dashboard_preview" src="https://github.com/user-attachments/assets/e2652d55-3e0e-4b55-8233-079348f24786" />
 
 📊 *Vista previa del dashboard interactivo desarrollado en Tableau Public, que muestra la evolución histórica de videos en tendencia en YouTube, segmentada por categoría, país y periodo de tiempo, con filtros dinámicos para apoyar la toma de decisiones en campañas de marketing digital.*
 
