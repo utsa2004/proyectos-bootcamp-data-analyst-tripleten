@@ -91,7 +91,7 @@ Este proyecto **alimenta directamente** el desarrollo del:
 
 ## 🔗 Repositorio del proyecto
 
-👉 *(aquí colocas el enlace al repositorio cuando lo pegues)*
+👉 *(https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20FInal%20Sprint%2014/14.3%20Proyecto%20Descomposici%C3%B3n)*
 
 ---
 
