@@ -112,7 +112,7 @@ El análisis evidencia que el clima y la localización influyen significativamen
 ---
 
 ## 🔗 Enlace al repositorio
-📎 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%208%20-%20Zuber
+📎 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2008%20-%20Zuber
 
 ---
 
