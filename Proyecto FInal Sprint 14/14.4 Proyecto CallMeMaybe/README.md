@@ -118,12 +118,6 @@ Las conclusiones del análisis fueron sintetizadas en una presentación en PDF:
 
 ---
 
-## 🔗 Repositorio del proyecto
-
-👉 *(aquí colocas el enlace al repositorio una vez publicado)*
-
----
-
 ## ✅ Estado del proyecto
 
 ✔ Análisis exploratorio completado  
@@ -132,6 +126,13 @@ Las conclusiones del análisis fueron sintetizadas en una presentación en PDF:
 ✔ Dashboard y presentación ejecutiva entregados  
 
 ---
+
+## 🔗 Repositorio del proyecto
+
+👉 *(https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20FInal%20Sprint%2014/14.4%20Proyecto%20CallMeMaybe)*
+
+---
+
 
 ## 🧠 Nota final
 
