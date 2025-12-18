@@ -1,4 +1,4 @@
-# 🧪 15.1 A/B Testing – Evaluación de un Sistema de Recomendación  
+# 🧪 14.1 A/B Testing – Evaluación de un Sistema de Recomendación  
 **Bootcamp de Data Analytics – TripleTen**
 
 ---
