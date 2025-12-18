@@ -32,7 +32,7 @@ Se proponen mejoras para garantizar confiabilidad en futuros análisis.
 ### 🛒 Proyecto 2 – Store (Parte 2): Análisis Avanzado
 Extensión del análisis inicial aplicando técnicas exploratorias y estadísticas para obtener hallazgos que apoyen decisiones de negocio.
 
-🔗 **[Ver proyecto](./Proyecto%20Sprint%202%20-%20Store%20Continuation)**
+🔗 **[Ver proyecto](https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%202%20-%20Store%20Continuaci%C3%B3n)**
 
 ---
 
@@ -82,113 +82,88 @@ Análisis de patrones de movilidad en Chicago, considerando zonas, condiciones c
 ### 🎟️ Proyecto 9 – Showz: Análisis del Comportamiento de Usuarios
 Evaluación del ciclo de vida del usuario, efectividad de campañas, conversión y rentabilidad por canal.
 
-🔗 **[Ver proyecto](./Proyecto%20Sprint%2010%20-%20Showz)**
+🔗 **[Ver proyecto](https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%209%20-%20Showz)**
 
 ---
 
 ### 🧪 Proyecto 10 – BigWeb: Análisis de Experimento A/B
 Validación de un experimento A/B para determinar si una variante mejora la conversión en un sitio de comercio electrónico.
 
-🔗 **[Ver proyecto](./Proyecto%20Sprint%2011%20BigWeb)**
+🔗 **[Ver proyecto](https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint10%20BigWeb)**
 
 ---
 
 ### 🌱 Proyecto 11 – Farming: Embudo de Conversión y Test A/A/B
 Análisis del embudo de usuarios, detección de fricciones clave y validación de un experimento A/A/B para evaluar cambios visuales en la interfaz.
 
-🔗 **[Ver proyecto](./Proyecto%20Sprint%2012%20-%20Farming)**
+🔗 **[Ver proyecto](https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2011%20-%20Farming)**
 
 ---
 
 ### 📊 Proyecto 12 – YouTube Dashboard: Tendencias Globales
 Dashboard interactivo en **Tableau Public** para analizar tendencias semanales por categoría, país y métricas clave.
 
-🔗 **[Ver proyecto](./Proyecto%20Sprint%2013%20-%20YouTube%20Dashboard)**
+🔗 **[Ver proyecto](https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2012%20-%20YouTube%20Dashboard)**
 
 ---
 
 ### 🏋️ Proyecto 13 – Fitness: Retención y Predicción de Abandono
 Análisis de retención de clientes, predicción de churn con modelos supervisados y segmentación mediante clustering.
 
-🔗 **[Ver proyecto](./Proyecto%20Sprint%2014%20-%20Fitness)**
+🔗 **[Ver proyecto](https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2013%20-%20Fitness)**
 
 ---
 
-## 🏁 Proyecto Final – Sprint 14 (4 entregables)
+## 🏁 Proyecto Final – Sprint 14
 
 ---
 
 ### 🧪 14.1 – Pruebas A/B: Sistema de Recomendación
-Evaluación de un experimento A/B mediante análisis del embudo de conversión y pruebas estadísticas, con conclusiones sobre la efectividad de la variante experimental.
+Evaluación de un experimento A/B mediante análisis del embudo de conversión y pruebas estadísticas.
 
-🔗 **[Ver proyecto](./Proyecto%20Final%20Sprint%2014/14.1%20Proyecto%20AB_Test)**
+🔗 **[Ver proyecto](https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20FInal%20Sprint%2014/14.1%20Proyecto%20AB_Test)**
 
 ---
 
 ### 🗂️ 14.2 – SQL: Análisis del Ecosistema Editorial
-Consultas SQL para analizar libros, autores, editoriales, calificaciones y reseñas, orientadas a definir una propuesta de valor para un producto literario digital.
+Consultas SQL para analizar libros, autores, editoriales, calificaciones y reseñas.
 
-🔗 **[Ver proyecto](./Proyecto%20Final%20Sprint%2014/14.2%20Proyecto%20SQL)**
+🔗 **[Ver proyecto](https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20FInal%20Sprint%2014/14.2%20Proyecto%20SQL)**
 
 ---
 
 ### 🔍 14.3 – Descomposición del Proyecto: CallMeMaybe
-Definición estructurada del problema, objetivos, hipótesis, métricas y plan analítico para evaluar el desempeño de operadores telefónicos.
+Definición estructurada del problema, objetivos, hipótesis, métricas y plan analítico.
 
-🔗 **[Ver proyecto](./Proyecto%20Final%20Sprint%2014/14.3%20Proyecto%20Descomposici%C3%B3n)**
+🔗 **[Ver proyecto](https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20FInal%20Sprint%2014/14.3%20Proyecto%20Descomposici%C3%B3n)**
 
 ---
 
-### 📡 14.4 – Proyecto Final: CallMeMaybe (Python + Estadística + Dashboard)
-Análisis integral que combina:
+### 📡 14.4 – Proyecto Final: CallMeMaybe
+Análisis integral con EDA, métricas operativas, pruebas estadísticas (t de Welch) y dashboard interactivo.
 
-- Limpieza y EDA  
-- Métricas operativas  
-- Identificación de operadores ineficaces  
-- Pruebas de hipótesis (**t de Welch**)  
-- Visualizaciones y dashboard interactivo  
-
-Con recomendaciones estratégicas basadas en evidencia estadística.
-
-🔗 **[Ver proyecto](./Proyecto%20Final%20Sprint%2014/14.4%20Proyecto%20CallMeMaybe)**
+🔗 **[Ver proyecto](https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20FInal%20Sprint%2014/14.4%20Proyecto%20CallMeMaybe)**
 
 ---
 
 ## 🧰 Herramientas y Tecnologías Utilizadas
 
-- **Python**
-- **Jupyter Notebook**
-- Pandas, NumPy
-- Matplotlib, Seaborn, Plotly Express
-- SciPy (pruebas estadísticas)
-- SQL
-- Streamlit
-- Tableau Public
-- Machine Learning:
-  - StandardScaler
-  - train_test_split
-  - LogisticRegression
-  - RandomForestClassifier
-  - KMeans
-- Métricas de ML:
-  - accuracy
-  - precision
-  - recall
-  - silhouette score
-- Clustering jerárquico:
-  - linkage
-  - dendrogram
+- Python, Jupyter Notebook  
+- Pandas, NumPy  
+- Matplotlib, Seaborn, Plotly Express  
+- SciPy (pruebas estadísticas)  
+- SQL  
+- Streamlit  
+- Tableau Public  
+- Machine Learning (Logistic Regression, Random Forest, KMeans)  
 
 ---
 
 ## 📘 Sobre mí
-
-Puedes conocer más sobre mi experiencia, enfoque y trayectoria profesional aquí:
 
 👉 **[Leer Sobre mí](Sobre_mi.md)**
 
 ---
 
 **Nota:**  
-Todos los proyectos de este repositorio fueron desarrollados con fines educativos como parte del programa de formación de  
-**TripleTen – Data Analytics**.
+Todos los proyectos de este repositorio fueron desarrollados con fines educativos como parte del programa **TripleTen – Data Analytics**.
