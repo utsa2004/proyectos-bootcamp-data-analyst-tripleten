@@ -7,7 +7,7 @@
 
 📸 *Vista previa de la aplicación web interactiva desarrollada con Streamlit, mostrando filtros dinámicos y visualizaciones de precios por tipo de vehículo.*
 
---
+---
 
 ## 📌 Descripción del proyecto
 El objetivo de este proyecto es practicar tareas habituales de **ingeniería de software aplicada al análisis de datos**, incluyendo la creación de entornos virtuales, la estructuración de un proyecto en GitHub y el desarrollo de una **aplicación web interactiva**.
@@ -92,6 +92,7 @@ El repositorio cuenta con la siguiente estructura mínima:
 
 ## 🧠 Nota final
 Este proyecto demuestra habilidades prácticas en **desarrollo de aplicaciones web para datos**, gestión de entornos virtuales, estructuración de proyectos y despliegue en la nube.
+
 
 
 
