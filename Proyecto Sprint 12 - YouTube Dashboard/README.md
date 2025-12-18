@@ -1,4 +1,4 @@
-# 📊 Proyecto Sprint 13 – Dashboard de Tendencias de YouTube  
+# 📊 Proyecto Sprint 12 – Dashboard de Tendencias de YouTube  
 **Bootcamp de Data Analytics – TripleTen**
 
 ---
