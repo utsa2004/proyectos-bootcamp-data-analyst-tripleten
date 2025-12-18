@@ -1,7 +1,10 @@
 # 🚗 Proyecto Sprint 7 – Aplicación Web con Streamlit  
-## Visualización Interactiva de Anuncios de Venta de Vehículos
 
 **Bootcamp de Data Analytics – TripleTen**
+
+---
+
+## 📷 Vista previa de la aplicación
 
 <img width="1304" height="585" alt="app_preview" src="https://github.com/user-attachments/assets/006e76e0-d2a8-436f-8ea1-918478ecc588" />
 
@@ -97,6 +100,7 @@ El repositorio cuenta con la siguiente estructura mínima:
 
 ## 🧠 Nota final
 Este proyecto demuestra habilidades prácticas en **desarrollo de aplicaciones web para datos**, gestión de entornos virtuales, estructuración de proyectos y despliegue en la nube.
+
 
 
 
