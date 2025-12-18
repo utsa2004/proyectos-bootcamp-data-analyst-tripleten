@@ -1,4 +1,4 @@
-# 🏋️ Proyecto Sprint 14 – Análisis de Retención de Clientes en Model Fitness  
+# 🏋️ Proyecto Sprint 13 – Análisis de Retención de Clientes en Model Fitness  
 **Bootcamp de Data Analytics – TripleTen**
 
 ---
