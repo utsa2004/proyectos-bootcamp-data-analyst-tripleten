@@ -110,14 +110,6 @@ Este proyecto demuestra cómo el uso estratégico de **SQL** permite transformar
 
 ---
 
-## 🔗 Enlace al repositorio
-
-El código completo del proyecto y las consultas SQL se encuentran disponibles en el repositorio de GitHub:
-
-👉 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Final%20Sprint%2014/14.2%20Proyecto%20SQL
-
----
-
 ## 📂 Archivos del proyecto
 
 - 📓 `notebook Proyecto SQL Final.ipynb` – Consultas SQL y análisis
@@ -130,6 +122,14 @@ El código completo del proyecto y las consultas SQL se encuentran disponibles e
 ✔ Consultas SQL completadas  
 ✔ Resultados documentados  
 ✔ Análisis alineado a objetivos de negocio  
+
+---
+
+## 🔗 Enlace al repositorio
+
+El código completo del proyecto y las consultas SQL se encuentran disponibles en el repositorio de GitHub:
+
+👉 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20FInal%20Sprint%2014/14.2%20Proyecto%20SQL
 
 ---
 
