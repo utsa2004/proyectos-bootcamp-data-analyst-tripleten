@@ -148,7 +148,7 @@ Se aplicaron pruebas de significancia para evaluar diferencias entre los grupos:
 ---
 
 ## 🔗 Enlace al repositorio
-📎 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2011%20BigWeb
+📎 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint11%20BigWeb
 
 ---
 
