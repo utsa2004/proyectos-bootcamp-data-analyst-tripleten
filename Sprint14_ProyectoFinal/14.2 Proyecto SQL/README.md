@@ -1,4 +1,4 @@
-# 🗄️ 15.2 SQL – Análisis Editorial
+# 🗄️ 14.2 SQL – Análisis Editorial
 
 Este proyecto utiliza consultas SQL para explorar y analizar datos de libros, autores, reseñas y comportamiento de usuarios dentro de una plataforma editorial digital.
 
