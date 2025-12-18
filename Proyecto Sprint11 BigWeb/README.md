@@ -116,7 +116,9 @@ Se aplicaron pruebas de significancia para evaluar diferencias entre los grupos:
 ## 💡 Recomendaciones adicionales
 - Generar y evaluar nuevas hipótesis enfocadas directamente en **incrementar el ticket promedio**.
 - Analizar segmentos específicos (usuarios nuevos vs recurrentes).
-- Explorar combinaciones de estrategias de conversión con técnicas de **upselling y cross-selling**.
+- Explorar combinaciones de estrategias que no solo aumenten la cantidad de usuarios que compran, sino también el monto promedio de cada    compra, por ejemplo mediante:
+  - incentivos para que los usuarios elijan productos o planes de mayor valor, y
+  - sugerencias de productos complementarios durante el proceso de compra.
 
 ---
 
