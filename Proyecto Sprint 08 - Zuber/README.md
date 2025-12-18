@@ -1,121 +1,110 @@
-# 🚕 Proyecto Sprint 8 – Zuber: Análisis de Movilidad Urbana en Chicago  
+# 🚕 Proyecto Sprint 8 – Zuber  
+## Análisis de Movilidad Urbana y Clima en Chicago
+
 **Bootcamp de Data Analytics – TripleTen**
 
 ---
 
 ## 📌 Descripción del proyecto
-Este proyecto analiza patrones de movilidad en la ciudad de Chicago durante noviembre de 2017 con el fin de comprender factores que influyen en los viajes en taxi y generar recomendaciones estratégicas para **Zuber**, una empresa que busca introducirse en el mercado de transporte urbano.
+Zuber es una empresa de transporte que busca introducirse en el mercado de movilidad urbana en la ciudad de Chicago. Para lograr una entrada estratégica y competitiva, la empresa necesita comprender los patrones de viaje existentes, identificar zonas de alta demanda y analizar cómo factores externos, como el clima, influyen en la duración de los trayectos.
 
-El análisis integra:
-- Datos meteorológicos  
-- Datos de viajes por empresa  
-- Información de barrios de destino  
-- Duración de trayectos bajo diferentes condiciones climáticas  
-
-A partir de consultas SQL y análisis exploratorio en Python, se estudian tendencias relevantes para entender demanda, variabilidad en los trayectos y diferencias entre empresas competidoras.
+En este proyecto se analizan datos reales de viajes en taxi correspondientes a noviembre de 2017, integrando información extraída mediante consultas SQL y análisis exploratorio en Python, con el objetivo de generar insights accionables para la etapa inicial de operación de Zuber.
 
 ---
 
 ## 🎯 Objetivo del proyecto
-Identificar factores que influyen en el comportamiento de los usuarios de servicios de transporte urbano y generar recomendaciones estratégicas para Zuber basadas en evidencia.
+Analizar patrones de movilidad urbana en Chicago y evaluar el impacto del clima en la duración de los viajes, con el fin de identificar oportunidades estratégicas y operativas para la entrada de Zuber al mercado.
 
 ---
 
-## 📂 Datasets utilizados
-Se trabajó con tres conjuntos de datos extraídos mediante SQL:
+## 📂 Conjuntos de datos utilizados
+Se trabajó con datos extraídos previamente mediante consultas SQL y analizados posteriormente en Python:
 
-- **chicago1:** viajes por empresa de taxis  
-- **chicago2:** viajes por barrio de destino  
-- **chicago3:** duración de trayectos entre Loop → Aeropuerto O’Hare, con condiciones climáticas asociadas  
-
----
-
-## 🧠 Metodología
-
-### **1. Preparación y revisión de datos**
-- Importación de datasets  
-- Validación de tipos de datos  
-- Revisión de valores atípicos  
-- Estandarización de columnas y categorías  
-
-### **2. Análisis exploratorio (EDA)**
-- Comparación del número de viajes por empresa  
-- Identificación de los 10 barrios con más finalizaciones de viajes  
-- Evaluación de patrones en fechas específicas  
-- Relación entre clima y duración de trayectos  
-
-### **3. Visualización**
-Se generaron gráficos para:
-- Cantidad de viajes por compañía  
-- Barrios más visitados  
-- Distribución de duraciones bajo distintas condiciones climáticas  
-- Comparación Loop → O’Hare  
-
-### **4. Pruebas de hipótesis**
-Para evaluar si el clima afecta significativamente la duración de los viajes en la ruta Loop → O’Hare se aplicaron:
-
-- **Prueba de Levene:** evaluación de igualdad de varianzas  
-- **Prueba t de Student:** comparación de medias entre días lluviosos vs. no lluviosos  
-
-Resultado clave:  
-➡️ La duración promedio en días lluviosos fue **significativamente mayor** (p ≈ 0.0000), lo cual confirma el impacto del clima.
+- **project_sql_result_01.csv** – número de viajes por compañía de taxis (15 y 16 de noviembre de 2017)
+- **project_sql_result_04.csv** – promedio de viajes por barrio de destino durante noviembre de 2017
+- **project_sql_result_07.csv** – duración de viajes desde el barrio Loop hasta el Aeropuerto Internacional O’Hare, incluyendo condiciones climáticas
 
 ---
 
-## 📊 Hallazgos principales
+## 🧩 Etapas del análisis
+🔹 **Exploración y validación de datos**  
+- Importación de archivos CSV  
+- Revisión de estructura y tipos de datos  
 
-### **1. Zonas de alta demanda**
-Barrios como **Loop**, **River North** y **Streeterville** concentran gran parte de los viajes.  
-Loop destaca con más de **10,700 viajes promedio**, posicionándose como punto estratégico para operaciones iniciales.
+🔹 **Análisis exploratorio de datos (EDA)**  
+- Identificación de las empresas de taxis con mayor número de viajes  
+- Identificación de los 10 barrios con más finalizaciones de recorrido  
+- Visualización de patrones de viajes por empresa y por barrio  
 
-### **2. Liderazgo de empresas consolidadas**
-En los días analizados:
-- **Flash Cab** fue líder absoluto en número de viajes  
-- Zuber aún no aparece entre las empresas más activas  
+🔹 **Análisis del impacto del clima**  
+- Comparación de la duración de trayectos bajo distintas condiciones climáticas  
+- Enfoque específico en los viajes desde Loop hasta el Aeropuerto O’Hare  
 
-Esto evidencia la necesidad de una estrategia inicial sólida para ganar visibilidad.
-
-### **3. Impacto del clima en la duración de trayectos**
-- Los días lluviosos presentan **mayor duración mediana**  
-- El clima afecta la ruta Loop → O’Hare con significancia estadística  
-- En días con buen clima se observan más valores atípicos y mayor dispersión  
-
-### **4. Influencia del clima (ruta Loop → O'Hare)**
-Resultados estadísticos:
-- ✔ Igualdad de varianzas (Levene p > 0.05)  
-- ✔ Diferencia significativa de medias (t-test p ≈ 0.0000)  
-
-Conclusión:  
-➡️ Los días lluviosos **prolongan de forma consistente** la duración de los viajes en esta ruta.
+🔹 **Pruebas de hipótesis estadísticas**  
+- Evaluación de diferencias en la duración promedio de los viajes en sábados lluviosos  
 
 ---
 
-## 💡 Recomendaciones para Zuber
-
-### ⭐ 1. Iniciar operaciones en zonas estratégicas  
-Centrarse en Loop, River North y Streeterville para maximizar visibilidad y demanda.
-
-### ⭐ 2. Gestionar flota según condiciones climáticas  
-Aumentar disponibilidad o ajustar ETAs en días lluviosos para evitar retrasos.
-
-### ⭐ 3. Integrar clima en el modelo de negocio  
-Incorporar predicciones climáticas en la app para mejorar la experiencia del usuario.
+## 📊 Visualizaciones realizadas
+- Gráficos de barras para comparar el número de viajes por empresa de taxis  
+- Gráficos de barras para identificar los 10 barrios con mayor número de finalizaciones  
+- Diagramas de caja para analizar la distribución de la duración de los trayectos según las condiciones climáticas  
 
 ---
 
-## 🧰 Habilidades utilizadas
-- Python (Pandas, NumPy, Seaborn, Matplotlib)  
-- SQL  
-- Visualización de datos  
-- Análisis exploratorio (EDA)  
-- Pruebas de hipótesis (Levene, t-test)  
-- Limpieza y validación de datos  
+## 🧪 Prueba de hipótesis
+**Hipótesis planteada:**  
+> *La duración promedio de los viajes desde el Loop hasta el Aeropuerto Internacional O’Hare cambia los sábados lluviosos.*
+
+Para su evaluación se aplicaron:
+- **Prueba de Levene**, para verificar la homogeneidad de varianzas  
+- **Prueba t de Student**, para comparar las medias  
+
+Nivel de significancia utilizado: **α = 0.05**
 
 ---
 
-## 🔗 Enlace al repositorio
-https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%2008%20-%20Zuber
+## 📈 Resultados clave
+- Los barrios de **Loop**, **River North** y **Streeterville** concentran la mayor demanda de viajes, destacando Loop como zona estratégica.
+- **Flash Cab** lidera el mercado en número de viajes durante los días analizados, reflejando el dominio de empresas establecidas.
+- Los trayectos realizados bajo condiciones climáticas adversas presentan una mayor duración promedio.
+- La prueba t de Student mostró una diferencia estadísticamente significativa en la duración de los viajes durante sábados lluviosos, específicamente en la ruta Loop → O’Hare.
 
 ---
 
+## 🧠 Conclusiones y recomendaciones
+El análisis evidencia que el clima y la localización influyen significativamente en la duración y frecuencia de los viajes en taxi en Chicago. En particular, los sábados lluviosos incrementan la duración de los trayectos desde Loop hasta el Aeropuerto O’Hare.
 
+**Recomendaciones para Zuber:**
+- Priorizar el inicio de operaciones en barrios de alta demanda como Loop y River North.
+- Ajustar la disponibilidad de flota en días lluviosos para mitigar retrasos.
+- Incorporar información climática en la aplicación para mejorar las estimaciones de tiempo de llegada (ETA) y la experiencia del usuario.
+
+---
+
+## 🛠️ Herramientas y tecnologías utilizadas
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- SciPy  
+- SQL (extracción de datos)  
+
+---
+
+## 📂 Archivos del proyecto
+📓 **Notebook principal:**  
+- `notebook - Zuber.ipynb`
+
+---
+
+## ✅ Estado del proyecto
+- ✔ Proyecto completado  
+- ✔ Análisis exploratorio documentado  
+- ✔ Pruebas estadísticas aplicadas  
+
+---
+
+## 🧠 Nota final
+Este proyecto demuestra la capacidad de integrar datos provenientes de consultas SQL con análisis exploratorio y pruebas estadísticas en Python, generando recomendaciones estratégicas basadas en evidencia para la toma de decisiones en el sector de movilidad urbana.
