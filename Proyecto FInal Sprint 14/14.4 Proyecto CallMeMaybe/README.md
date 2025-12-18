@@ -60,7 +60,7 @@ Un operador se considera potencialmente **ineficaz** si presenta uno o más de l
 - H₀: No existen diferencias significativas entre operadores.  
 - H₁: Existen diferencias significativas entre operadores.
 
-Las hipótesis fueron evaluadas mediante **test de Levene** y **pruebas t de Student**, seleccionando el enfoque adecuado según la homogeneidad de varianzas.
+Las hipótesis fueron evaluadas mediante **test de Levene** y **pruebas t de Welch**, seleccionando el enfoque adecuado según la homogeneidad de varianzas.
 
 ---
 
