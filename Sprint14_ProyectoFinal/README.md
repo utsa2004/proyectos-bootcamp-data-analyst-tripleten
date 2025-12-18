@@ -1,9 +1,9 @@
-# 🏁 Sprint 15 – Proyecto Final
+# 🏁 Sprint 14 – Proyecto Final
 Este sprint integra **cuatro proyectos finales** que aplican técnicas avanzadas de análisis de datos, pruebas A/B, SQL y descomposición estructurada de problemas.
 
 ---
 
-## 📂 Contenido del Sprint 15
+## 📂 Contenido del Sprint 14
 
 ---
 
