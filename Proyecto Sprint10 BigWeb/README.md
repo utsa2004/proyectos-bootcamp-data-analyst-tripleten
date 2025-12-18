@@ -1,4 +1,4 @@
-# 🧪 Proyecto Sprint 11 – A/B Testing y Priorización de Hipótesis (BigWeb)
+# 🧪 Proyecto Sprint 10 – A/B Testing y Priorización de Hipótesis (BigWeb)
 ## Evaluación de Experimentos para Incrementar Ingresos en una Tienda Online
 
 **Bootcamp de Data Analytics – TripleTen**
