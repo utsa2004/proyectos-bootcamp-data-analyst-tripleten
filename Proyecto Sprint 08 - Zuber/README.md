@@ -18,11 +18,16 @@ Analizar patrones de movilidad urbana en Chicago y evaluar el impacto del clima 
 ---
 
 ## 📂 Conjuntos de datos utilizados
-Se trabajó con datos extraídos previamente mediante consultas SQL y analizados posteriormente en Python:
+Los datos fueron obtenidos previamente mediante consultas SQL y posteriormente cargados en Python desde los siguientes archivos:
 
 - **project_sql_result_01.csv** – número de viajes por compañía de taxis (15 y 16 de noviembre de 2017)
-- **project_sql_result_04.csv** – promedio de viajes por barrio de destino durante noviembre de 2017
+- **project_sql_result_04.csv** – promedio de viajes por barrio de destino en noviembre de 2017
 - **project_sql_result_07.csv** – duración de viajes desde el barrio Loop hasta el Aeropuerto Internacional O’Hare, incluyendo condiciones climáticas
+
+En el análisis en Python, estos archivos fueron cargados en los siguientes DataFrames:
+- `chicago1`
+- `chicago2`
+- `chicago3`
 
 ---
 
@@ -102,7 +107,12 @@ El análisis evidencia que el clima y la localización influyen significativamen
 ## ✅ Estado del proyecto
 - ✔ Proyecto completado  
 - ✔ Análisis exploratorio documentado  
-- ✔ Pruebas estadísticas aplicadas  
+- ✔ Pruebas estadísticas aplicadas
+
+---
+
+## 🔗 Enlace al repositorio
+📎 https://github.com/utsa2004/proyectos-bootcamp-data-analyst-tripleten/tree/main/Proyecto%20Sprint%208%20-%20Zuber
 
 ---
 
